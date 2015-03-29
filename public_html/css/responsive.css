@@ -1,0 +1,11 @@
+ @media (max-width: 1280px) {
+    .category-container .category-slide {
+		width: 830px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .category-container .category-slide div {
+		float: left;
+		width: 140px;
+	}
+  } 
