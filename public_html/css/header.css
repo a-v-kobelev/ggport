@@ -21,7 +21,7 @@
 	overflow: hidden;
 }
 .category-container .category-slide div {
-	float: left;
+	/*float: left;*/
 	/*width: 140px;*/
 }
 .category-container .category-slide a {

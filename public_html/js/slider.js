@@ -33,24 +33,24 @@ $(function(){
     		active: true
     	}
     });
- //    $('#category-slide').slick({
-	// 	  responsive: [
-	// 	    {
-	// 	      breakpoint: 1024,
-	// 	      settings: {
-	// 	        slidesToShow: 6,
-	// 	        slidesToScroll: 1,
-	// 	        infinite: false,
-	// 	        dots: true
-	// 	      }
-	// 	    },
-	// 	    {
-	// 	    	breakpoint: 1280,
-	// 	    	settings: "unslick"
-	// 	    }
-	// 	    // You can unslick at a given breakpoint now by adding:
-	// 	    // settings: "unslick"
-	// 	    // instead of a settings object
-	// 	]
-	// });
+    $('#category-slide').slick({
+		  responsive: [
+		    {
+		      breakpoint: 1024,
+		      settings: {
+		        slidesToShow: 6,
+		        slidesToScroll: 1,
+		        infinite: false,
+		        dots: true
+		      }
+		    },
+		    {
+		    	breakpoint: 1280,
+		    	settings: "unslick"
+		    }
+		    // You can unslick at a given breakpoint now by adding:
+		    // settings: "unslick"
+		    // instead of a settings object
+		]
+	});
 });
