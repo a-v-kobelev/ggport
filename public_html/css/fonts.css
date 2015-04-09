@@ -21,22 +21,20 @@
 }
 @font-face {
     font-family: 'Roboto Bold Condensed';
-    src: url('fonts/RobotoCondensed-Bold-webfont.eot');
-    src: url('fonts/RobotoCondensed-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/RobotoCondensed-Bold-webfont.woff') format('woff'),
-         url('fonts/RobotoCondensed-Bold-webfont.ttf') format('truetype'),
-         url('fonts/RobotoCondensed-Bold-webfont.svg#roboto_condensedbold') format('svg');
+    src: url('fonts/RobotoCondensedBold.eot');
+    src: url('fonts/RobotoCondensedBold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/RobotoCondensedBold.woff') format('woff'),
+         url('fonts/RobotoCondensedBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'Roboto Condensed Light';
-    src: url('fonts/Roboto-Light-webfont.eot');
-    src: url('fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Roboto-Light-webfont.woff') format('woff'),
-         url('fonts/Roboto-Light-webfont.ttf') format('truetype'),
-         url('fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    src: url('fonts/RobotoCondensedLight.eot');
+    src: url('fonts/RobotoCondensedLight.eot?#iefix') format('embedded-opentype'),
+         url('fonts/RobotoCondensedLight.woff') format('woff'),
+         url('fonts/RobotoCondensedLight.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -57,8 +55,8 @@
 }
 @font-face {
     font-family: 'Pt Sans';
-    src: url('fonts/pt_sans.eot');
-    src: url('fonts/pt_sans.eot?#iefix') format('embedded-opentype'),
-         url('fonts/pt_sans.woff') format('woff'),
-         url('fonts/pt_sans.ttf') format('truetype');
+    src: url('fonts/PTS55F.eot');
+    src: url('fonts/PTS55F.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PTS55F.woff') format('woff'),
+         url('fonts/PTS55F.ttf') format('truetype');
 }

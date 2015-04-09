@@ -7,18 +7,28 @@ body {
 	font-family:"Roboto Condensed";
 	font-size: 100%;
 }
-h1 {
+h1, h2 {
 	font-family:"Roboto Condensed Light";
 	text-transform: uppercase;
 	font-size: 2.750em;
 	text-align: center;
 	margin-top: 80px;
 }
-h1:after {
+h1:after, h2:after {
 	content: url(../images/devider.png);
 	display: block;
 	margin-top: 30px;
 	margin-bottom: 40px;
+}
+a {
+	transition: background 0.5s ease;
+	transition-delay: 0.1s;
+	-webkit-transition: background 0.5s ease;
+	-o-transition: background 0.5s ease;
+	-moz-transition: background 0.5s ease;
+}
+.row  {
+	overflow: hidden;
 }
 .wrapper {
     min-height: 100%;
@@ -33,7 +43,30 @@ h1:after {
     height: 300px;
 }
 .footer {
-	background: #000;
+	background: #000 url(../images/bg_footer.png) right bottom no-repeat;
 	color: #000;
 	height: 300px;
+	max-width: 1600px;
+    min-width: 1000px;
+}
+.hidden {
+	display: none !important;
+}
+.item-all {
+	text-align: center;
+	padding: 55px 0 45px 0;
+}
+.item-all a {
+	border: 3px solid rgb(42,149,244);
+	padding: 10px;
+	font-family: "Roboto Condensed Bold";
+	text-transform: uppercase;
+	font-size: 1.125em;
+	display: inline-block;
+	color: rgb(42,149,244);
+	text-decoration: none;
+}
+.item-all a:hover {
+	background-color: rgb(42,149,244);
+	color: #fff;
 }

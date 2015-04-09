@@ -46,3 +46,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.clearfix {
+	float: none;
+	clear: both;
+	zoom: 1;
+	font-size: 1px;
+	line-height: 0px;
+}
