@@ -60,3 +60,24 @@
          url('fonts/PTS55F.woff') format('woff'),
          url('fonts/PTS55F.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Pf Din Medium';
+    src: url('fonts/pfdintextcondpro-medium-webfont.eot');
+    src: url('fonts/pfdintextcondpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/pfdintextcondpro-medium-webfont.woff') format('woff'),
+         url('fonts/pfdintextcondpro-medium-webfont.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Kelson Sans';
+    src: url('fonts/KelsonSansRegular.eot');
+    src: url('fonts/KelsonSansRegular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/KelsonSansRegular.woff') format('woff'),
+         url('fonts/KelsonSansRegular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Kelson Sans Bold';
+    src: url('fonts/KelsonSansBold.eot');
+    src: url('fonts/KelsonSansBold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/KelsonSansBold.woff') format('woff'),
+         url('fonts/KelsonSansBold.ttf') format('truetype');
+}

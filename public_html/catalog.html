@@ -12,6 +12,7 @@
         <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
         <link rel="stylesheet" type="text/css" href="css/jquery.formstyler.css">
         <link rel="stylesheet" type="text/css" href="css/catalog.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.custom-scrollbar.css">
         <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
         <script type="text/javascript" src="js/jquery-ui.js"></script>
         <script type="text/javascript" src="js/media.match.min.js"></script>
@@ -21,6 +22,7 @@
         <script type="text/javascript" src="js/function.js"></script>
         <script type="text/javascript" src="js/slider.js"></script>
         <script type="text/javascript" src="js/jquery.formstyler.js"></script>
+        <script type="text/javascript" src="js/jquery.custom-scrollbar.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Каталог</title>
     </head>
@@ -81,8 +83,108 @@
             </div>
             <div class="content">
                 <div class="filter-container">
-                    
-                </div>
+                    <div class="filter-params">Параметры
+                        <div class="filter-params-action"></div>
+                    </div>
+                    <div class="filter-icon">
+                        <a href="#" class="chair"></a>
+                        <a href="#" class="tumba"></a>
+                        <a href="#" class="cupboard"></a>
+                        <a href="#" class="table"></a>
+                        <a href="#" class="lamp"></a>
+                        <a href="#" class="soufa"></a>
+                        <a href="#" class="bar"></a>
+                        <a href="#" class="office"></a>
+                        <a href="#" class="things"></a>
+                    </div>
+                    <div class="filter-menu-category filter-menu-category-choice">
+                        <div class="filter-menu-category-top"></div>
+                        <div class="filter-menu-category-block filter-menu-category-block-scroll default-skin">
+                            <ul>
+                                <li class="filter-menu-item-top"><a href="#">Мебель</a></li>
+                                <li><a href="#">Буфет</a></li>
+                                <li><a href="#">Вешалка</a></li>
+                                <li><a href="#">Витрина</a></li>
+                                <li><a href="#">Комод</a></li>
+                                <li><a href="#">Винная мебель</a></li>
+                                <li><a href="#">Буфет</a></li>
+                                <li><a href="#">Вешалка</a></li>
+                                <li><a href="#">Витрина</a></li>
+                                <li><a href="#">Комод</a></li>
+                                <li><a href="#">Винная мебель</a></li>
+                            </ul>
+                        </div>
+                        <div class="filter-menu-category-bottom"></div>
+                    </div>
+                    <div class="filter-menu-category filter-menu-brands">
+                        <div class="filter-menu-category-block filter-menu-brands-block filter-menu-category-block-scroll default-skin">
+                            <ul>
+                                <li><a href="#" class="filter-item-parent filter-item-parent-scroll first-child">Бренды</a>
+                                    <ul class="filter-submenu-block">
+                                        <li class="filter-submenu-block-choice_letter"><span>A-E</span><span>F-J</span><span>K-O</span>
+                                            <span>P-T</span><span>U-Z</span></li>
+                                        <li class="filter-submenu-block-title">A</li>
+                                        <li><a herf="#">Andorra</a></li>
+                                        <li><a herf="#">Ambient</a></li>
+                                        <li><a herf="#">Avacado</a></li>
+                                        <li><a herf="#">Astrahan</a></li>
+                                        <li><a herf="#">Andalusia</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="filter-item-parent filter-item-parent-scroll">Дизайнеры</a></li>
+                                <li><a href="#" class="filter-item-parent filter-item-parent-scroll">Стиль</a></li>
+                                <li><a href="#" class="filter-item-parent filter-item-parent-scroll last-child">Материалы</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="filter-menu-category filter-menu-brands filter-menu-options">
+                        <div class="filter-menu-category-block filter-menu-brands-block">
+                            <ul>
+                                <li><a href="#" class="filter-item-parent filter-item-parent-noscroll first-child">Настройки</a>
+                                    <div class="filter-submenu-block">
+                                        <div class="filter-submenu-left">
+                                            <div class="select-option-block">
+                                                <select id="change-pagination" class="change-pagination">
+                                                    <option value="20" selected class="change-pagination-option">20</option>
+                                                    <option value="30" class="change-pagination-option">30</option>
+                                                    <option value="40" class="change-pagination-option">40</option>
+                                                    <option value="50" class="change-pagination-option">50</option>
+                                                </select>
+                                            </div>
+                                            <div class="select-option-block">
+                                                <select id="change-pagination-two" class="change-pagination">
+                                                    <option value="Все" selected class="change-pagination-option">Все</option>
+                                                    <option value="40" class="change-pagination-option">40</option>
+                                                    <option value="50" class="change-pagination-option">50</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="filter-submenu-right">
+                                            <div class="filter-options-icon">
+                                                <span class="filter-options-bigger"></span>
+                                                <span class="filter-options-smaller"></span>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                            <div class="select-option-block-right">
+                                                <select id="change-pagination-three" class="change-pagination change-pagination-three">
+                                                    <option value="Все" selected class="change-pagination-option">Популярные</option>
+                                                    <option value="40" class="change-pagination-option">Отличные</option>
+                                                    <option value="50" class="change-pagination-option">Так себе</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="item-all filter-options-submit">
+                            <a href="#">Показать</a>
+                        </div>
+                        <div class="filter-options-reset">
+                            <a href="#">очистить фильтры</a>
+                        </div>
+                    </div>
                 <div class="catalog-container">
                     <div class="search-catalog">
                         <div class="search-catalog-block">
@@ -90,14 +192,76 @@
                             <button type="submit"></button>
                         </div>
                         <div class="project-list">
+                            <div class="project-list-block">
+                                <ul>
+                                    <li><span class="project-item active">
+                                            Комната для моей жены <span class="project-item-count">(6)</span>
+                                            <span class="project-block-right">
+                                                <span class="project-icon-count">13</span>
+                                            </span>
+                                        </span>
+                                        <ul>
+                                            <li>
+                                            <span class="project-item active">
+                                                Эспериментальный проект для разных <span class="project-item-count">(0)</span>
+                                            </li>
+                                            <li class="last-item">
+                                            <span class="project-item active">
+                                                Эспериментальный проект для разных <span class="project-item-count">(0)</span>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="catalog-items">
+                        <div class="search-result-block">
+                            <div class="filter-chain">
+                                <span class="filter-chain-title">Хранение</span>
+                                <a href="#">Винная мебель</a>
+                                <a href="#">Комод</a>
+                                <a href="#">Консоль</a>
+                                <a href="#">Тумбочка</a>
+                            </div>
+                            <div class="search-result-count">Результаты поиска: 225</div>
+                        </div>
+                        <div class="catalog-block">
                             <ul>
-                                <li><a href=""></a></li>
-                                <li><a href=""></a></li>
-                                <li><a href=""></a></li>
+                                <li><a href="#"><img src="images/models/image1.jpg" alt=""></a>
+                                    <div class="overview">
+                                        <div class="overview-opacity"></div>
+                                        <div class="overview-content">
+                                            <div class="overview-choice"></div>
+                                            <div class="overview-title"><a href="#">Название модели, которое может быть достаточно длинным...</a></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="#"><img src="images/models/image2.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/models/image3.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/models/image4.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/models/image5.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
+                <div class="clearfix"></div>
             </div>
 			<div class="buffer"></div>
 		</div>

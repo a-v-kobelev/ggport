@@ -65,4 +65,96 @@ $(function(){
     $("#header_change_lang, #header_select_info").styler({
     	selectPlaceholder: ''
     });
+
+    $(".filter-icon a").mouseover(function(){
+    	$(this).addClass("icon-hover")
+    })
+	.mouseout(function(){
+		$(this).removeClass("icon-hover");
+	})
+	.click(function(event){
+		$(this).toggleClass("icon-active");
+		event.preventDefault();
+	});
+
+	
+	$(".project-list .project-item.active").mouseover(function(){
+		$(this).addClass("project-active-hover");
+	})
+	.mouseout(function(){
+		$(this).removeClass("project-active-hover");	
+	});
+	$(".project-list .project-item.active .project-block-right").mouseover(function(){
+		$(this).addClass("project-block-right-hover");
+	})
+	.mouseout(function(){
+		$(this).removeClass("project-block-right-hover");	
+	});
+
+
+	$(".project-list li span.active").click(function(){
+		$(".project-list ul").toggleClass("project-all");
+	});
+
+
+	$(document).mouseup(function (e) {
+	    var container = $(".project-list");
+	    if (container.has(e.target).length === 0){
+	        $(".project-list ul").removeClass("project-all");
+	    }
+	});
+
+	$(".filter-menu-category-choice li a").click(function(event){
+		$(this).toggleClass("active");
+		event.preventDefault();
+	});
+
+	$(".filter-menu-category-block-scroll").customScrollbar({fixedThumbHeight: 63, fixedThumbWidth: 60});
+
+	$(".filter-item-parent-scroll").click(function(event){
+		var items = $(".filter-item-parent-scroll").not(this);
+		items.each(function(){
+			$(this).removeClass("active-item");
+		});
+		$(this).toggleClass("active-item");
+		var ul = $(this).next();
+		var block = $(this).parents(".filter-menu-brands-block")
+		ul.toggleClass("active-item");
+		resizeAndScroll(block);
+		event.preventDefault();
+	});
+
+	$(".filter-item-parent-noscroll").click(function(event){
+		var items = $(".filter-item-parent").not(this);
+		$(this).toggleClass("active-item");
+		var ul = $(this).next();
+		ul.toggleClass("active-item");
+		$("#change-pagination, #change-pagination-two, #change-pagination-three").styler({
+	    	selectPlaceholder: ''
+	    });
+		event.preventDefault();
+	});
+
+	$(".filter-submenu-block-choice_letter span").click(function(event){
+		var items = $(".filter-submenu-block-choice_letter span").not(this);
+		items.each(function(){
+			$(this).removeClass("active");
+		});
+		$(this).toggleClass("active");
+		event.preventDefault();
+	});
+
+	$(".filter-menu-brands li .filter-submenu-block a").click(function(event){
+		$(this).toggleClass("active");
+		event.preventDefault();
+	});
+
+	$(".filter-options-icon span").click(function(){
+		var items = $(".filter-options-icon span").not(this);
+		items.each(function(){
+			$(this).removeClass("active");
+		});
+		$(this).toggleClass("active");
+	});
+
 });

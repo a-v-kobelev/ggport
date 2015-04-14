@@ -145,7 +145,7 @@
 }
 .model-container ul {
   overflow: hidden;
-  height: 174px;
+  height: 170px;
   width: 100%;
   max-width: 1600px;
   min-width: 1000px;
@@ -157,29 +157,35 @@
 }
 .model-container li a {
   display: block;
-  width: 174px;
-  height: 174px;
+  width: 168px;
+  height: 168px;
   text-align: center;
   position: relative;
   border: 1px solid #fff;
 }
 .model-container li a .model-descr {
   display: none;
-  width: 174px;
-  height: 175px;
+  width: 168px;
+  height: 168px;
   background: #fff;
-  opacity: 0.4;
   position: absolute;
   left: 0;
   top: 0;
-  filter: alpha(opacity=40);
   color: #000;
+  box-sizing: border-box;
+  text-align: center;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  padding-top: 60px;
 }
 .model-container li a:hover {
   border: 1px solid rgb(230,230,230);
 }
 .model-container li a:hover .model-descr {
   display: block;
+}
+.model-container li img {
+  width: 100%;
 }
 .banner-middle-container {
   height: auto;

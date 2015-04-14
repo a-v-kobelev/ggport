@@ -6,3 +6,6 @@ function rotateImage(img1, img2) {
 		image1.hide();
 	}
 }
+function resizeAndScroll(obj) {
+    $(obj).customScrollbar({fixedThumbHeight: 63, fixedThumbWidth: 60});
+}
