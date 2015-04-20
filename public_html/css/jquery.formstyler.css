@@ -199,6 +199,7 @@
 	font-size: 0.875em;
 	line-height: 18px;
 	background: rgb(67,70,71);
+	z-index: 100;
 }
 .jq-selectbox__search {
 	margin: 5px;

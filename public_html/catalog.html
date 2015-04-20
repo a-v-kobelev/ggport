@@ -2,17 +2,19 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<link rel="stylesheet" type="text/css" href="css/reset.css">
     	<link rel="stylesheet" type="text/css" href="css/fonts.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/header.css">
         <link rel="stylesheet" type="text/css" href="css/slider.css">
         <link rel="stylesheet" type="text/css" href="css/footer.css">
-        <link rel="stylesheet" type="text/css" href="css/responsive.css">
         <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
         <link rel="stylesheet" type="text/css" href="css/jquery.formstyler.css">
-        <link rel="stylesheet" type="text/css" href="css/catalog.css">
         <link rel="stylesheet" type="text/css" href="css/jquery.custom-scrollbar.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.qtip.css">
+        <link rel="stylesheet" type="text/css" href="css/catalog.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
         <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
         <script type="text/javascript" src="js/jquery-ui.js"></script>
         <script type="text/javascript" src="js/media.match.min.js"></script>
@@ -21,64 +23,61 @@
         <script type="text/javascript" src="js/media.match.min.js"></script>
         <script type="text/javascript" src="js/function.js"></script>
         <script type="text/javascript" src="js/slider.js"></script>
+        <script type="text/javascript" src="js/catalog.js"></script>
         <script type="text/javascript" src="js/jquery.formstyler.js"></script>
         <script type="text/javascript" src="js/jquery.custom-scrollbar.js"></script>
+        <script type="text/javascript" src="js/jquery.qtip.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Каталог</title>
     </head>
     <body>
         <div class="wrapper">
         	<div class="header-line">
-                <div class="header-menu">
-                    <ul>
-                        <li><a href="#" class="header-menu-bold">3D модели</a>
+                <div class="max-width-block">
+                    <div class="header-menu">
                         <ul>
-                            <li><a href="#">Каталог 3D моделей</a></li>
-                            <li><a href="#">Бесплатные модели</a></li>
-                            <li><a href="#">Заказать модель</a></li>
-                            <li><a href="#">Новости</a></li>
-                        </ul>
-                        </li>
-                        <li><a href="#" class="header-menu-bold">Подписаться</a></li>
-                        <li><a href="#">Помощь</a></li>
-                        <li><a href="#">Обратная связь</a></li>
-                        <li><a href="#">О нас</a>
+                            <li><a href="#" class="header-menu-bold">3D модели</a>
                             <ul>
-                                <li><a href="#">О нас</a></li>
-                                <li><a href="#">Вакансии</a></li>
-                                <li><a href="#">Контакты</a></li>
-                                <li><a href="#">Документы</a></li>
+                                <li><a href="#">Каталог 3D моделей</a></li>
+                                <li><a href="#">Бесплатные модели</a></li>
+                                <li><a href="#">Заказать модель</a></li>
+                                <li><a href="#">Новости</a></li>
                             </ul>
-                        </li>
-                    </ul>
-                </div> 
-                <div class="header-right">
-                    <div class="header-change-lang">
-                        <select name="" id="header_select_info" class="header-select-info">
-                            <option value="" selected>Константин</option>
-                            <option value="">Личные данные</option>
-                            <option value="">Пополнить счет</option>
-                            <option value="">История платежей</option>
-                            <option value="">Проекты</option>
-                        </select>
-                    </div>
-                    <div class="header-auth">
-                        <a href="#">Вход</a>
-                    </div>
-                    <div class="header-change-lang">
-                        <select name="" id="header_change_lang" class="change-lang-select">
-                            <option value="" selected>Русский</option>
-                            <option value="">English</option>
-                            <option value="">France</option>
-                        </select>
+                            </li>
+                            <li><a href="#" class="header-menu-bold">Подписаться</a></li>
+                            <li><a href="#">Помощь</a></li>
+                            <li><a href="#">Обратная связь</a></li>
+                            <li><a href="#">О нас</a>
+                                <ul>
+                                    <li><a href="#">О нас</a></li>
+                                    <li><a href="#">Вакансии</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                    <li><a href="#">Документы</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div> 
+                    <div class="header-right">
+                        <div class="header-auth">
+                            <a href="#">Вход</a>
+                        </div>
+                        <div class="header-change-lang">
+                            <select name="" id="header_change_lang" class="change-lang-select">
+                                <option value="" selected>Русский</option>
+                                <option value="">English</option>
+                                <option value="">France</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="header-search">
+                <div class="max-width-block">
                 <div class="logo"><img src="images/logo.png" alt=""></div>
                 <div class="header-slogan">
                     Только оригинальные 3D модели<br />
                     и высокое качество
+                </div>
                 </div>
             </div>
             <div class="content">
@@ -124,11 +123,11 @@
                                         <li class="filter-submenu-block-choice_letter"><span>A-E</span><span>F-J</span><span>K-O</span>
                                             <span>P-T</span><span>U-Z</span></li>
                                         <li class="filter-submenu-block-title">A</li>
-                                        <li><a herf="#">Andorra</a></li>
-                                        <li><a herf="#">Ambient</a></li>
-                                        <li><a herf="#">Avacado</a></li>
-                                        <li><a herf="#">Astrahan</a></li>
-                                        <li><a herf="#">Andalusia</a></li>
+                                        <li><a href="#">Andorra</a></li>
+                                        <li><a href="#">Ambient</a></li>
+                                        <li><a href="#">Avacado</a></li>
+                                        <li><a href="#">Astrahan</a></li>
+                                        <li><a href="#">Andalusia</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#" class="filter-item-parent filter-item-parent-scroll">Дизайнеры</a></li>
@@ -173,18 +172,19 @@
                                                 </select>
                                             </div>
                                         </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="item-all filter-options-submit">
-                            <a href="#">Показать</a>
-                        </div>
-                        <div class="filter-options-reset">
-                            <a href="#">очистить фильтры</a>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
+                    <div class="clearfix"></div>
+                    <div class="item-all filter-options-submit">
+                        <a href="#">Показать</a>
+                    </div>
+                    <div class="filter-options-reset">
+                        <a href="#">очистить фильтры</a>
+                    </div>
+                </div>
                 <div class="catalog-container">
                     <div class="search-catalog">
                         <div class="search-catalog-block">
@@ -219,7 +219,7 @@
                     <div class="catalog-items">
                         <div class="search-result-block">
                             <div class="filter-chain">
-                                <span class="filter-chain-title">Хранение</span>
+                                <span class="filter-chain-title">Хранение:</span>
                                 <a href="#">Винная мебель</a>
                                 <a href="#">Комод</a>
                                 <a href="#">Консоль</a>
@@ -229,16 +229,43 @@
                         </div>
                         <div class="catalog-block">
                             <ul>
-                                <li><a href="#"><img src="images/models/image1.jpg" alt=""></a>
+                                <li><a href="#">
+                                        <span class="model-free"></span>
+                                        <img src="images/models/image1.jpg" alt="">
+                                    </a>
                                     <div class="overview">
                                         <div class="overview-opacity"></div>
                                         <div class="overview-content">
                                             <div class="overview-choice"></div>
-                                            <div class="overview-title"><a href="#">Название модели, которое может быть достаточно длинным...</a></div>
+                                            <div class="overview-title"><a href="#">Название модели, которое может быть достаточно длинным...</a>
+                                            </div>
+                                            <div class="overview-add show_title_horizontal" title="Добавить в проект"></div>
+                                            <div class="overview-info">
+                                                <span class="overview-download show_title" title="Количество скачиваний">50</span>
+                                                <span class="overview-comment show_title" title="Комментарии">2</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </li>
-                                <li><a href="#"><img src="images/models/image2.jpg" alt=""></a></li>
+                                <li>
+                                    <a href="#"><img src="images/models/image2.jpg" alt=""></a>
+                                    <div class="overview">
+                                        <div class="overview-opacity"></div>
+                                        <div class="overview-content">
+                                            <div class="overview-choice overview-choice-active show_title_html"></div>
+                                            <div class="hidden">
+                                                <p><b>Добавлен в проекты:</b><br />Комната для моей жены<br />Дом моего друга<br />Моя столовая</p>
+                                            </div>
+                                            <div class="overview-title"><a href="#">Название модели, которое может быть достаточно длинным...</a>
+                                            </div>
+                                            <div class="overview-add show_title_horizontal" title="Добавить в проект"></div>
+                                            <div class="overview-info">
+                                                <span class="overview-download show_title" title="Количество скачиваний">50</span>
+                                                <span class="overview-comment show_title" title="Комментарии">2</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
                                 <li><a href="#"><img src="images/models/image3.jpg" alt=""></a></li>
                                 <li><a href="#"><img src="images/models/image4.jpg" alt=""></a></li>
                                 <li><a href="#"><img src="images/models/image5.jpg" alt=""></a></li>
@@ -256,12 +283,37 @@
                                 <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
                                 <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
                                 <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
+                                <li class="catalog-next"><a href="#"><span class="text-next">Далее</span><span class="icon-next"></span></a></li>
                             </ul>
+                            <div class="clearfix"></div>
                         </div>
                     </div>
                 </div>
+                <div class="pagination-block">
+                    <ul>
+                        <li class="pagination-prev"><a href="#">&nbsp;</a></li>
+                        <li class="pagination-active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li class="pagination-next"><a href="#">&nbsp;</a></li>
+                    </ul>
+                </div>
                 <div class="clearfix"></div>
+                <div class="banner-middle-container">
+                    <div class="banner-middle banner-middle-left">
+                        <a href="#">
+                            <img src="images/banner_left.jpg" alt="" class="banner-left-one" style="display: inline;">
+                            <img src="images/banner_left_2.jpg" alt="" class="banner-left-two" style="display: none;">
+                        </a>
+                    </div>
+                    <div class="banner-middle banner-middle-right">
+                        <a href="#">
+                            <img src="images/banner_right.png" alt="" class="banner-right-one" style="display: inline;">
+                            <img src="images/banner_right_2.png" alt="" class="banner-right-two" style="display: none;">
+                        </a>
+                    </div>
+                </div>
             </div>
 			<div class="buffer"></div>
 		</div>

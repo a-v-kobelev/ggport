@@ -6,9 +6,14 @@
     max-width: 400px;
   }
 }
-@media screen and (min-width: 1190px) and (max-width: 1280px) {
+@media screen and (min-width: 1190px) and (max-width: 1270px) {
   .category-container .category-slide, .model-container ul {
       width: 980px;
+  }
+}
+@media screen and (min-width: 1270px) and (max-width: 1280px) {
+  .category-container .category-slide, .model-container ul {
+      width: 1120px;
   }
 }
 @media screen and (min-width: 1020px) and (max-width: 1190px) {
@@ -18,9 +23,83 @@
   .model-container ul {
       width: 850px;
   }
+  .footer-search input[type="text"] {
+    max-width: 126px;
+  }
 }
 @media screen and (max-width: 1020px) {
   .category-container .category-slide {
       width: 850px;
+  }
+}
+@media screen and (min-width: 1010px) and (max-width: 1200px) {
+  .catalog-block li {
+    width: 30%;
+    box-sizing: border-box;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1270px) {
+  .catalog-block li {
+    width: 30%;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .slidesjs-navigation {
+    display: none;
+  }
+  .header-slider .slide-block .slider-text {
+    left: 30px;
+    top: 40%;
+    line-height: 1.500em;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Kelson Sans Bold";
+    font-size: 2.500em;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1350px) {
+  .header-slider .slide-block .slider-text {
+    left: 76px;
+    top: 30%;
+    line-height: 1.500em;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Kelson Sans Bold";
+    font-size: 2.500em;
+  }
+  .header-search .search-line input[type="text"] {
+    max-width: 440px;
+  }
+  .max-width-block, .footer-inner {
+    max-width: 1120px;
+  }
+}
+@media screen and (min-width: 1350px) and (max-width: 1500px) {
+  .header-slider .slide-block .slider-text {
+    left: 100px;
+    top: 30%;
+    line-height: 1.500em;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Kelson Sans Bold";
+    font-size: 3.750em;
+  }
+  .max-width-block, .footer-inner {
+    max-width: 1200px;
+  }
+}
+@media screen and (min-width: 1500px) and (max-width: 1850px) {
+  .header-slider .slide-block .slider-text {
+    left: 192px;
+    top: 30%;
+    line-height: 1.500em;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Kelson Sans Bold";
+    font-size: 3.750em;
+  }
+  .max-width-block, .footer-inner {
+    max-width: 1200px;
   }
 }

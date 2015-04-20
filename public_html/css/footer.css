@@ -1,16 +1,17 @@
 .footer-inner {
 	overflow: hidden;
-	margin: 0 35px;
-	color: rgb(59,59,59);
-	padding-top: 50px;
+	margin: 0 auto;
+	color: #595959;
+	padding: 50px 25px 0 25px;
 	font-family: "Pt Sans";
 	font-size: 0.875em;
+	max-width: 1430px;
 }
 .footer-inner .footer-item {
 	box-sizing: border-box;
 	float: left;
-	width: 21%;
-	margin-right: 4%;
+	width: 22%;
+	margin-right: 3%;
 	position: relative;
 }
 .footer-inner .footer-item:last-child {
@@ -33,7 +34,8 @@
 }
 .footer-inner .footer-item-50 {
 	float: left;
-	width: 50%;
+	width: 47%;
+	margin-right: 3%;
 	box-sizing: border-box;
 	position: relative;
 	height: 245px;
@@ -62,7 +64,7 @@
 	height: 25px;
 	background-position: center top;
 	background-repeat: no-repeat;
-	margin-right: 6px;
+	margin-right: 3px;
 }
 .card-container a:hover {
 	background-position: center -49px;
@@ -103,10 +105,10 @@
 	outline: none;
 	height: 36px;
 	width: 100%;
-	max-width: 190px;
-	min-width: 160px;
+	max-width: 152px;
+	min-width: 120px;
 	line-height: 36px;
-	font-size: 1em;
+	font-size: 90%;
 	font-family: "Pt Sans";
 	padding: 0 13px;
 	color: #fff;
@@ -139,7 +141,7 @@
 	height: 30px;
 	background-position: center top;
 	background-repeat: no-repeat;
-	margin-right: 6px;
+	margin-right: 2px;
 }
 .social-container a:hover {
 	background-position: center -45px;
@@ -172,4 +174,5 @@
 .footer .madein img {
 	vertical-align: middle;
 	margin-left: 10px;
+	width: 40%;
 }
