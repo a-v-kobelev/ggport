@@ -26,6 +26,9 @@
   .footer-search input[type="text"] {
     max-width: 126px;
   }
+  .catalog-container .catalog-detail-block {
+    margin-left: -215px;
+  }
 }
 @media screen and (max-width: 1020px) {
   .category-container .category-slide {

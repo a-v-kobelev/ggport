@@ -3,9 +3,6 @@
 	background: rgb(47,50,51);
 	min-width: 1000px;
 }
-.header-menu ul {
-	
-}
 .header-menu li {
 	float: left;
 	margin-right: 22px;
@@ -177,8 +174,36 @@
 	background: #fff;
 	color: rgb(47,50,51);
 }
+.header-info {
+	float: right;
+	padding-right: 15%;
+	padding-top: 44px;
+}
+.header-info a {
+	line-height: 16px;
+	background-image: url(../images/icon_header.png);
+	background-repeat: no-repeat;
+	background-position: left 1px;
+	padding-left: 20px;
+	text-decoration: none;
+	color: #fff;
+	margin-right: 20px;
+	font-family: "Pt Sans";
+	font-size: 0.875em;
+}
+.header-info .header-info-count {
+	background-position: left -23px;
+	padding-left: 16px;
+}
+.header-info .header-info-cost {
+	background-position: left -44px;
+	padding-left: 28px;
+}
+.header-info .header-info-time {
+	background-position: left -69px;
+}
 .header-search {
-	height: 110px;
+	height: 106px;
 	overflow: hidden;
 	background-image: url(../images/bg_header_line.jpg);
 	background-position: left top;
