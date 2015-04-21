@@ -7,7 +7,11 @@ function rotateImage(img1, img2) {
 	}
 }
 function resizeAndScroll(obj) {
-    $(obj).customScrollbar({fixedThumbHeight: 63, fixedThumbWidth: 60});
+    $(obj).customScrollbar({
+      fixedThumbHeight: 63,
+      fixedThumbWidth: 60,
+      hScroll: false
+    });
 }
 function  getPageSize(){
    var xScroll, yScroll;

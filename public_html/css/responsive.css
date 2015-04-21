@@ -32,15 +32,21 @@
       width: 850px;
   }
 }
-@media screen and (min-width: 1010px) and (max-width: 1200px) {
+@media screen and (min-width: 1010px) and (max-width: 1270px) {
   .catalog-block li {
     width: 30%;
     box-sizing: border-box;
   }
 }
-@media screen and (min-width: 1200px) and (max-width: 1270px) {
+@media screen and (min-width: 1280px) and (max-width: 1590px) {
   .catalog-block li {
-    width: 30%;
+    width: 22%;
+    box-sizing: border-box;
+  }
+}
+@media screen and (min-width: 1590px) {
+  .catalog-block li {
+    width: 18%;
     box-sizing: border-box;
   }
 }

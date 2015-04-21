@@ -135,9 +135,9 @@ $(function(){
 		});
 		$(this).toggleClass("active-item");
 		var ul = $(this).next();
-		var block = $(this).parents(".filter-menu-brands-block")
 		ul.toggleClass("active-item");
-		resizeAndScroll(block);
+		var scroll = ul.find(".filter-menu-category-block-scroll");
+		resizeAndScroll(scroll);
 		event.preventDefault();
 	});
 
@@ -199,7 +199,16 @@ $(function(){
     	content: {
     		text: function(api) {
     			return $(this).next().html();
-    		}
-    	}
+    		},
+    	},
+	});
+
+	$(".filter-menu-category-block").scroll(function(){
+		console.log("GGGg");
+	});
+
+	$("#filter-params-toggle").click(function(){
+		$("#filter-container").toggleClass("filter-container-close");
+		$("#catalog-container").toggleClass("catalog-container-full");
 	});
 });
