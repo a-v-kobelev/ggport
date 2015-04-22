@@ -10,6 +10,7 @@
         <link rel="stylesheet" type="text/css" href="css/slider.css">
         <link rel="stylesheet" type="text/css" href="css/footer.css">
         <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
         <link rel="stylesheet" type="text/css" href="css/jquery.formstyler.css">
         <link rel="stylesheet" type="text/css" href="css/jquery.custom-scrollbar.css">
         <link rel="stylesheet" type="text/css" href="css/jquery.qtip.css">
@@ -21,6 +22,7 @@
         <script type="text/javascript" src="js/media.match.min.js"></script>
         <script type="text/javascript" src="js/jquery.slides.min.js"></script>
         <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
         <script type="text/javascript" src="js/media.match.min.js"></script>
         <script type="text/javascript" src="js/function.js"></script>
         <script type="text/javascript" src="js/slider.js"></script>
@@ -130,8 +132,24 @@
                     <div class="catalog-detail-block">
                         <h1>Барный стул от  Маттиацци</h1>
                         <div class="catalog-detail-image">
-                            <div class="catalog-detail-img">
-                                <img src="images/photo-detail.jpg" alt="">
+                            <div class="catalog-detail-image-block">
+                                <div class="catalog-detail-img" id="catalog-detail-img">
+                                    <a href="images/photo-detail.jpg" rel="gallery1" class="fancybox-detail"><img src="images/photo-detail.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="detail-catalog-slider">
+                                <a href="#" class="prev">Предыдущий</a>
+                                <ul>
+                                    <li><a class="detail-catalog-item" href="photo/1.jpeg"><img src="photo/1.jpeg" alt=""></a></li>
+                                    <li><a class="detail-catalog-item" href="photo/2.jpeg"><img src="photo/2.jpeg" alt=""></a></li>
+                                    <li><a class="detail-catalog-item" href="photo/3.jpg"><img src="photo/3.jpg" alt=""></a></li>
+                                    <li><a class="detail-catalog-item" href="photo/4.jpg"><img src="photo/4.jpg" alt=""></a></li>
+                                    <li><a class="detail-catalog-item" href="photo/5.jpg"><img src="photo/5.jpg" alt=""></a></li>
+                                    <li><a class="detail-catalog-item" href="photo/1.jpeg"><img src="photo/1.jpeg" alt=""></a></li>
+                                    <li><a class="detail-catalog-item" href="photo/2.jpeg"><img src="photo/2.jpeg" alt=""></a></li>
+                                    <li><a class="detail-catalog-item" href="photo/3.jpg"><img src="photo/3.jpg" alt=""></a></li>
+                                </ul>
+                                <a href="#" class="next">Следующий</a>
                             </div>
                         </div>
                         <div class="catalog-detail-info">
@@ -175,21 +193,38 @@
                                             <div class="share-block-border">
                                                 <div class="share-item share-facebook"><a href="#" class="show_title" title="Facebook">5</a></div>
                                                 <div class="share-item share-twitter"><a href="#" class="show_title" title="Twitter">18</a></div>
-                                                <div class="share-item share-pinit"><a href="#" class="show_title" title="PunIt">&nbsp;</a><</div>
+                                                <div class="share-item share-pinit"><a href="#" class="show_title" title="PunIt">&nbsp;</a></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="detail-info-text">
-                                <p>Ширина: 40cm x глубина 39cm x высота 75cm. With the Uncino collection we continue our collaboration with Mattiazzi and the idea of sculpting wood both handcrafted and with numerically controlled milling machines. We conceived a family of wooden task chairs with two different backrests and a (four star) swivel base. The gently carved wooden pieces are held in place by bent metal rods – while wood remains the main actor, the metal parts play a fundamental role in the construction. The metal structure joins the pieces of wood in an almost organic overlap. The wood embraces the metal rods whose form subtlety appears on the wooden surface like a prominence. </p>
-                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="detail-info-text">
+                            <p>Ширина: 40cm x глубина 39cm x высота 75cm. With the Uncino collection we continue our collaboration with Mattiazzi and the idea of sculpting wood both handcrafted and with numerically controlled milling machines. We conceived a family of wooden task chairs with two different backrests and a (four star) swivel base. The gently carved wooden pieces are held in place by bent metal rods – while wood remains the main actor, the metal parts play a fundamental role in the construction. The metal structure joins the pieces of wood in an almost organic overlap. The wood embraces the metal rods whose form subtlety appears on the wooden surface like a prominence. </p>
                         </div>
                     </div>
                 </div>
                 <div class="clearfix"></div>
                 <div class="detail-comment-block">
-                    <div class="max-width-wrapper"></div>
+                    <div class="max-width-block">
+                        <div class="detail-comment">Комментарии</div>
+                        <div class="detail-comment-list">
+                            <ul>
+                                <li>И вновь, замечательная работа!
+                                    <span class="comment-user"><a href="#">baikot</a>, 20 фев 2015</span>
+                                </li>
+                                <li>спасибо!
+                                    <span class="comment-user"><a href="#">matinashu</a>, 19 фев 2015</span>
+                                </li>
+                                <li>Очень Неплохо :) По посту и визу 3й кадр самый удачный. 1-2й слишком много синевы, которая убила все цвета и 
+                                    делало комнаты  ...
+                                    <span class="comment-user"><a href="#">Константин</a>, 17 фев 2015
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
 			<div class="buffer"></div>

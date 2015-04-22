@@ -165,6 +165,7 @@
 	line-height: 46px;
 	padding: 0 20px;
 	z-index: 10;
+	background: #fff;
 }
 .search-catalog .project-list li .project-item .project-item-count {
 	color: rgb(216,216,216);
