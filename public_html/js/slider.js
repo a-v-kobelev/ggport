@@ -254,4 +254,11 @@ $(function(){
     	});
 		event.preventDefault();
 	});
+
+    $('#tab a').click(function(event) {
+	    if ($(this).attr('class') != $('#tab').attr('class') ) {
+	        $('#tab').attr('class',$(this).attr('class'));
+	    }
+	    event.preventDefault();
+    });
 });

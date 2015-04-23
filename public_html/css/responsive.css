@@ -29,10 +29,16 @@
   .catalog-container .catalog-detail-block {
     margin-left: -215px;
   }
+  .all-comment-block {
+    margin-left: -200px;
+  }
 }
 @media screen and (max-width: 1020px) {
   .category-container .category-slide {
       width: 850px;
+  }
+  .catalog-container .catalog-detail-block {
+    margin-left: -215px;
   }
 }
 @media screen and (min-width: 1010px) and (max-width: 1270px) {
@@ -110,5 +116,11 @@
   }
   .max-width-block, .footer-inner {
     max-width: 1200px;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1670px) {
+  .model-list-add .model-list-block {
+    width: 1530px;
+    margin: 70px auto;
   }
 }

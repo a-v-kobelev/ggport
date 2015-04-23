@@ -569,6 +569,44 @@
 	padding-right: 15px;
 	color: #000;
 }
+.catalog-items .catalog-items-left {
+	margin-left: 8%;
+	width: 42%;
+	float: left;
+	max-width: 530px;
+	margin-top: 60px;
+}
+.catalog-items .catalog-section {
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.catalog-section .catalog-section-image {
+	float: left;
+	margin-right: 20px;
+}
+.catalog-section .catalog-section-info {
+	padding-left: 100px;
+}
+.catalog-section .section-title {
+	font-family: "Roboto Condensed Light";
+	font-size: 1.500em;
+	text-transform: uppercase;
+}
+.catalog-section .section-item {
+	margin-top: 20px;
+	line-height: 24px;
+}
+.catalog-section .section-item a {
+	color: rgb(181,181,181);
+	font-size: 0.813em;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-right: 15px;
+	font-family: "Pt Sans";
+}
+.catalog-section .section-item a:hover {
+	text-decoration: underline;
+}
 .catalog-block {
 	margin-top: 20px;
 	margin-left: 10px;

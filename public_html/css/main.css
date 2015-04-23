@@ -21,6 +21,16 @@ h1:after, h2:after {
 	margin-top: 30px;
 	margin-bottom: 40px;
 }
+h1.simple:after, h2.simple:after {
+	content: '';
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+h2.simple {
+	font-size: 1.875em;
+	margin-top: 20px;
+}
 a {
 	transition: all 0.5s ease;
 	transition-delay: 0.1s;
@@ -33,9 +43,6 @@ i, em {
 }
 b, strong {
 	font-weight: bold;
-}
-.row  {
-	overflow: hidden;
 }
 .wrapper {
     min-height: 100%;
@@ -85,4 +92,10 @@ b, strong {
 	max-width: 1485px;
 	padding: 0 20px;
 	margin: 0 auto;
+}
+.block-center {
+	text-align: center;
+}
+.block {
+	overflow: hidden;
 }

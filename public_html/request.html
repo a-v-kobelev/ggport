@@ -130,128 +130,79 @@
                         <div class="clearfix"></div>
                     </div>
                     <div class="catalog-detail-block">
-                        <h1>Барный стул от  Маттиацци</h1>
-                        <div class="catalog-detail-image">
-                            <div class="catalog-detail-image-block">
-                                <div class="catalog-detail-img" id="catalog-detail-img">
-                                    <a href="images/photo-detail.jpg" rel="gallery1" class="fancybox-detail"><img src="images/photo-detail.jpg" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="detail-catalog-slider">
-                                <a href="#" class="prev">Предыдущий</a>
-                                <ul>
-                                    <li><a class="detail-catalog-item" href="photo/1.jpeg"><img src="photo/1.jpeg" alt=""></a></li>
-                                    <li><a class="detail-catalog-item" href="photo/2.jpeg"><img src="photo/2.jpeg" alt=""></a></li>
-                                    <li><a class="detail-catalog-item" href="photo/3.jpg"><img src="photo/3.jpg" alt=""></a></li>
-                                    <li><a class="detail-catalog-item" href="photo/4.jpg"><img src="photo/4.jpg" alt=""></a></li>
-                                    <li><a class="detail-catalog-item" href="photo/5.jpg"><img src="photo/5.jpg" alt=""></a></li>
-                                    <li><a class="detail-catalog-item" href="photo/1.jpeg"><img src="photo/1.jpeg" alt=""></a></li>
-                                    <li><a class="detail-catalog-item" href="photo/2.jpeg"><img src="photo/2.jpeg" alt=""></a></li>
-                                    <li><a class="detail-catalog-item" href="photo/3.jpg"><img src="photo/3.jpg" alt=""></a></li>
-                                </ul>
-                                <a href="#" class="next">Следующий</a>
-                            </div>
-                        </div>
-                        <div class="catalog-detail-info">
-                            <div class="catalog-detail-info-block">
-                                <div class="stars">
-                                    <span class="one active">1</span>
-                                    <span class="two">2</span>
-                                    <span class="three">3</span>
-                                    <span class="four">4</span>
-                                    <span class="five">5</span>
-                                </div>
-                                <a href="#" class="button">Скачать</a>
-                                <div class="catalog-detail-text">
-                                    <p>
-                                        ID: 6231. обновлен: 20 янв 2015 09:47<br />
-                                        51.90 MB<br />
-                                        3ds MAX 2011 и выше, V-Ray, Mental<br />Ray, Maya, Cinema 4D
-                                    </p>
-                                    <p><a href="#" class="grey"><i>Совместимость моделей</i></a></p>
-                                    <p>
-                                        <a href="#">Mattiazzi</a>, Italy
-                                    </p>
-                                    <p>
-                                        <b>Дизайнер:</b><br />
-                                        Sam Hecht
-                                    </p>
-                                    <p>
-                                        <b>Стиль:</b><br />
-                                        contemporary, итальянский
-                                    </p>
-                                    <p>
-                                        <b>Материал:</b><br />
-                                        Дерево, ткань
-                                    </p>
-                                </div>
-                                <div class="detail-action">
-                                    <div class="action-add show_title" title="Добавить в проекты"></div>
-                                    <div class="action-print show_title" title="Распечатать"></div>
-                                    <div class="action-share show_title" title="Поделиться">
-                                        <div class="share-block">
-                                            <div class="share-block-border">
-                                                <div class="share-item share-facebook"><a href="#" class="show_title" title="Facebook">5</a></div>
-                                                <div class="share-item share-twitter"><a href="#" class="show_title" title="Twitter">18</a></div>
-                                                <div class="share-item share-pinit"><a href="#" class="show_title" title="PunIt">&nbsp;</a></div>
+                        <div class="form-container">
+                            <div class="form-container-left">
+                                <h1 class="simple">Заявка на вашу модель</h1>
+                                <form>
+                                    <div class="row">
+                                        <label>Ваше имя</label>
+                                        <input type="text" class="false" placeholder="Например, Илья" />
+                                        <span class="icon-false arrow_box">Вы неверно заполнили это поле, оно должно быть другим</span>
+                                    </div>
+                                    <div class="row">
+                                        <label>Ваша электронная почта</label>
+                                        <input type="text" placeholder="Например, ilya@mail.ru" class="right" />
+                                        <span class="icon-right"></span>
+                                    </div>
+                                    <div class="devider"><img src="images/devider.png" alt=""></div>
+                                    <div class="row">
+                                        <label>Опишите какую 3d-модель вы хотите</label>
+                                        <div id="tab" class="tab1">
+                                            <span class="tab1"><a href="#" class="tab1">Указать ссылку или модель</a></span>
+                                            <span class="tab2"><a href="#" class="tab2">Загрузить эскиз</a></span>
+                                            <div class="tab tab1">
+                                                <div class="form-block">
+                                                    <textarea name="" id="" cols="30" rows="10" class="blue">Вставьте сюда ссылку на понравившуюся модель или впишите название фабрики и модели</textarea>
+                                                </div>
+                                            </div>
+                                            <div class="tab tab2">
+                                                <div class="form-block">
+                                                    <label for="file" class="label-file">Загрузить файл с рисунком/схемой</label>
+                                                    <input id="file" type="file" class="hidden">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="row">
+                                        <label>Ваши комментарий к заявке</label>
+                                        <textarea name="" id="" cols="30" rows="10" placeholder="Впишите свои пожелания к модели или её описание"></textarea>
+                                    </div>
+                                    <div class="row block">
+                                        <div class="row-left">
+                                            <input type="checkbox" id="check1" class="checkbox">
+                                            <label for="check1" class="normal">Подписаться на рассылку новостей</label>
+                                        </div>
+                                        <div class="row-left">
+                                            <input type="checkbox" id="check2" class="checkbox">
+                                            <label for="check2" class="normal">Согласие на отправку личных данных и соглашение</label>
+                                        </div>
+                                    </div>
+                                    <div class="row block-center">
+                                        <input type="submit" value="Отправить" />
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="form-container-right">
+                                <div class="form-container-right-item">
+                                    <i>- Что это?</i><br />
+                                    Если вы ищете модель, которой нет в нашей базе, но она популярна и очень вам нужна, то вы можете заказать её и получить по подписке! Для этого необходимо заполнить эту заявку.
+                                </div>
+                                <div class="form-container-right-item second">
+                                    <i>- Как заказать модель?</i><br />
+                                    Впишите название бренда и желаемой модели предмета интерьера или оставьте ссылку на его изображение. 
+                                </div>
+                                <div class="form-container-right-item third">
+                                    <i>- Когда вы её получите?</i><br />
+                                    Мы выберем наиболее востребованные и интересные запросы и смоделируем их для вас в течении месяца.
+                                    Формат 3д моделей: 3DS MAX 2011 И ВЫШЕ, FBX, OBJ
+                                    Материалы: V-RAY
+                                    Подробнее
                                 </div>
                             </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="detail-info-text">
-                            <p>Ширина: 40cm x глубина 39cm x высота 75cm. With the Uncino collection we continue our collaboration with Mattiazzi and the idea of sculpting wood both handcrafted and with numerically controlled milling machines. We conceived a family of wooden task chairs with two different backrests and a (four star) swivel base. The gently carved wooden pieces are held in place by bent metal rods – while wood remains the main actor, the metal parts play a fundamental role in the construction. The metal structure joins the pieces of wood in an almost organic overlap. The wood embraces the metal rods whose form subtlety appears on the wooden surface like a prominence. </p>
                         </div>
                     </div>
                 </div>
                 <div class="clearfix"></div>
-                <div class="detail-comment-block">
-                    <div class="max-width-block">
-                        <div class="detail-comment">Комментарии</div>
-                            <div class="detail-comment-list">
-                                <ul>
-                                    <li>И вновь, замечательная работа!
-                                        <span class="comment-user"><a href="#">baikot</a>, 20 фев 2015</span>
-                                    </li>
-                                    <li>спасибо!
-                                        <span class="comment-user"><a href="#">matinashu</a>, 19 фев 2015</span>
-                                    </li>
-                                    <li>Очень Неплохо :) По посту и визу 3й кадр самый удачный. 1-2й слишком много синевы, которая убила все цвета и 
-                                        делало комнаты  ...
-                                        <span class="comment-user"><a href="#">Константин</a>, 17 фев 2015
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="model-list-add">
-                    <h2>Еще модели:</h2>
-                    <div class="model-list-text">
-                            postroika, stroieniie, stroika, stroitiel'stvo, zdaniie, здание, постройка, строение, строительство, стройка, biemol', ploskii, prokol, бемоль, плоский, плоско, прокол, kurs, massiv, napravlieniie, nositiel', pierienoschik, viektor, вектор, курс, массив, направление, носитель, переносчик, dizain, ekstier'ier, kompozitsiia, konstruktsiia, modiel', namierieniie, obraziets, plan, proiekt, umysiel, uzor, vnieshnii vid, zamysiel, внешний вид, дизайн, замысел,
-                        </div>
-                    <div class="model-list-block">
-                        <ul>
-                            <li><a href="#"><img src="images/models/image1.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="images/models/image2.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="images/models/image3.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="images/models/image4.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="images/models/image5.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="images/models/image6.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="images/models/image7.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="images/models/image8.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="images/models/image9.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="images/models/image10.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="images/models/image11.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="images/models/image12.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="images/models/image13.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="images/models/image14.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="images/models/image15.jpg" alt=""></a></li>
-                        </ul>
-                    </div>
-                </div>
             </div>
 			<div class="buffer"></div>
 		</div>
