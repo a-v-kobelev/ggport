@@ -261,4 +261,15 @@ $(function(){
 	    }
 	    event.preventDefault();
     });
+
+    $(".select").styler({
+    	selectPlaceholder: ''
+    });
+
+    $(".tarif-block .tarif-list tr").mouseover(function(){
+    	$(this).addClass("tarif-list-hover");
+    }).
+    mouseout(function(){
+    	$(this).removeClass("tarif-list-hover");
+    });
 });
