@@ -1,0 +1,83 @@
+.news-detail-block {
+	font-family: "Pt Sans";
+	font-size: 1em;
+	line-height: 1.500em;
+}
+.news-detail-block .news-date {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.813em;
+	font-family: "Pt Sans";
+	margin-bottom: 50px;
+}
+.news-detail-block h1:after {
+	margin-bottom: 20px;
+}
+.news-detail-block .news-anons {
+	max-width: 46%;
+	float: left;
+	margin-right: 30px;
+}
+.news-detail-block p {
+	margin-bottom: 2.188em;
+}
+.news-detail-block h2 {
+	font-family: "Pt Sans";
+	font-size: 1.500em;
+	letter-spacing: 0;
+	text-align: left;
+	margin: 0 0 30px 0;
+	font-weight: bold;
+}
+.news-detail-block h2:after {
+	content: '';
+	margin: 0;
+}
+.news-detail-block h3 {
+	font-size: 1.563em;
+	font-family: "Pt Sans";
+	font-style: italic;
+	color: rgb(129,129,129);
+}
+.news-detail-block a {
+	color: rgb(47,151,244);
+}
+.news-detail-block img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.news-detail-block ul, .news-detail-block ol {
+	margin-bottom: 2.188em;
+	list-style-position: outside;
+}
+.news-detail-block ul li {
+	margin-left: 10px;
+	padding-left: 13px;
+	position: relative;
+}
+.news-detail-block ul li:before {
+	content: url(../images/list_dotter.png);
+	position: absolute;
+	left: 0;
+	top: -4px;
+}
+.news-detail-block ol {
+	counter-reset:  item;
+}
+.news-detail-block ol li {
+	margin-left: 6px;
+	padding-left: 20px;
+	position: relative;
+}
+.news-detail-block ol li:before {
+	content: counter(item) ') ';
+	counter-increment: item;
+	color: #000;
+	opacity: .4;
+	filter: alpha(opacity=40);
+	position: absolute;
+	left: 0;
+}
+.news-container.news-container-detail {
+	margin: 0 auto 80px auto;
+}

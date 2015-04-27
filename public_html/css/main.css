@@ -14,6 +14,7 @@ h1, h2 {
 	text-align: center;
 	margin-top: 80px;
 	letter-spacing: 6px;
+	line-height: 56px;
 }
 h1:after, h2:after {
 	content: url(../images/devider.png);
@@ -37,6 +38,13 @@ a {
 	-webkit-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
+	color: rgb(47,151,244);
+}
+a:hover {
+	text-decoration: none;
+}
+a:visited {
+	color: rgb(172,172,172);
 }
 i, em {
 	font-style: italic;

@@ -250,7 +250,7 @@
 .banner-middle-container {
   height: auto;
   overflow: hidden;
-  max-height: 238px;
+  margin-bottom: -2px;
 }
 .banner-middle-container .banner-middle {
   width: 50%;
@@ -269,6 +269,10 @@
   min-width: 970px;
   box-sizing: border-box;
   margin: 0 auto;
+}
+.news-container.news-page {
+  min-width: 600px;
+  width: 98%;
 }
 .news-container .news-item {
   float: left;
@@ -329,7 +333,6 @@
   bottom: 15px;
   left: 0;
   right: 0;
-  width: 100%;
   font-size: 1.125em;
   line-height: 1.500em;
   padding-left: 20px;
