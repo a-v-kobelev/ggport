@@ -806,3 +806,10 @@
 	cursor: pointer;
 	outline: none;
 }
+.tarif-descr {
+	font-size: 0.938em;
+	opacity: .4;
+	filter: alpha(opacity=40);
+	text-align: center;
+	line-height: 18px;
+}
