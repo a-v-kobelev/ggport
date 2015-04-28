@@ -264,7 +264,7 @@
 	background-position: -66px -61px;
 }
 .detail-photo {
-	width: 70% !important;
+	width: 90% !important;
 	text-align: center !important;
 }
 .detail-photo .fancybox-inner {
@@ -518,7 +518,7 @@
 .form-container label.normal {
 	text-transform: none;
 }
-.form-container input[type=text] {
+.form-container input[type=text], .form-container input[type=password] {
 	width: 100%;
 	box-sizing: border-box;
 	border: 1px solid rgb(210,210,210);
@@ -645,10 +645,32 @@
 	cursor: pointer;
 	outline: none;
 	border: 2px solid rgb(67,246,234);
+	letter-spacing: 2px;
 }
 .form-container input[type=submit]:hover {
 	background-color: #fff;
 	border: 2px solid rgb(67,246,234);
+}
+.form-container input[type=submit].blue {
+	border: none;
+	width: 80%;
+	padding: 15px 0;
+	background: rgb(72,163,244);
+	text-align: center;
+	font-family: "Roboto Condensed";
+	font-size: 1.125em;
+	cursor: pointer;
+	outline: none;
+	border: 2px solid rgb(72,163,244);
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: normal;
+	text-transform: none;
+}
+.form-container input[type=submit].blue:hover {
+	background-color: #fff;
+	border: 2px solid rgb(72,163,244);
+	color: rgb(72,163,244);
 }
 /* Cначала обозначаем стили для IE8 и более старых версий
 т.е. здесь мы немного облагораживаем стандартный чекбокс. */
@@ -911,4 +933,33 @@
 }
 .tarif-block .tarif-list .tarif-list-hover .tarif-list-cost {
 	color: rgb(42,149,244);
+}
+.modal-block {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.login-container, .registration  {
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+}
+.login-container form, .registration form  {
+	width: 90%;
+	margin: 0 auto;
+}
+.registration {
+	background-color: rgb(243,243,243);
+	padding: 10px;
+}
+.registration.form-container label {
+	text-align: left;
+}
+.form-container .row .row-left.link-remember {
+	text-align: right;
+}
+.form-container .row .row-left.link-remember a {
+	color: rgb(172,172,172);
+	text-transform: uppercase;
+	font-size: 0.625em;
 }

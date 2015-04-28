@@ -52,6 +52,7 @@
 	border-bottom: 1px solid rgb(241,241,241);
 	box-sizing: border-box;
 	font-family: "PT Sans";
+	position: relative;
 }
 .filter-container .filter-params a {
 	display: block;
@@ -855,4 +856,80 @@ span.icon-next {
 }
 .pagination-block .pagination-next a:hover {
 	background-position: center -28px;
+}
+.left-menu {
+	margin: 50px 10px 0 12px;
+	font-family: "Pt Sans";
+	font-size: 0.750em;
+}
+.left-menu .left-menu-title {
+	text-transform: uppercase;
+	border-bottom: 1px solid rgb(204,204,204);
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+.left-menu li {
+	font-size: 1.167em;
+	line-height: 24px;
+}
+.left-menu a {
+	color: #000;
+	text-decoration: none;
+	font-size: 1em;
+	line-height: 24px;
+	opacity: .5;
+	filter: alpha(opacity=50);
+}
+.left-menu a:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.personal-comment {
+	font-family: "Pt Sans";
+	font-size: 0.750em;
+}
+.personal-comment .personal-comment-title {
+	color: rgb(164,164,164);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	line-height: 18px;
+}
+.personal-comment .calendar_button {
+	text-transform: none;
+	color: #000;
+	cursor: pointer;
+}
+.personal-comment .personal-comment-date {
+	width: 200px;
+}
+.personal-comment table tr {
+	border: 1px solid rgb(241,241,241);
+}
+.personal-comment table tr.first {
+	border: none;
+}
+.personal-comment table td {
+	padding: 30px 0;
+}
+.personal-comment .personal-comment-date {
+	font-size: 1.083em;
+	text-align: center;
+	line-height: 18px;
+}
+.personal-comment .personal-comment-item {
+	font-size: 1.250em;
+}
+.personal-comment .personal-comment-answer {
+	color: rgb(164,164,164);
+	text-transform: uppercase;
+	font-size: 0.800em;
+	padding-top: 6px;
+	padding-left: 25px;
+	margin-top: 3px;
+	background: url(../images/icon_personal_arrow.png) left center no-repeat;
+	letter-spacing: 2px;
+}
+.personal-comment .personal-comment-answer .personal-comment-status {
+	color: rgb(22,203,132);
 }

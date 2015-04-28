@@ -107,3 +107,15 @@ b, strong {
 .block {
 	overflow: hidden;
 }
+.calendar {
+	display: block;
+	font-size: 0.750em;
+	text-transform: none;
+	color: #000;
+}
+.icon_calendar {
+	margin: 0 2px;
+	padding: 6px;
+	background: url(../images/icon_calendar.png) center center no-repeat;
+	cursor: pointer;
+}
