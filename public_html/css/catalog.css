@@ -1167,3 +1167,80 @@ span.icon-next {
 .help-block .help-list-item-link:hover span {
 	border-bottom: 1px dashed rgb(72,163,244);
 }
+.help-list-item-content {
+	display: none;
+}
+.help-list-item-content .help-detail-date {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.813em;
+	font-family: "Pt Sans";
+	margin-bottom: 30px;
+}
+.help-list-item-content {
+	text-align: left;
+	font-family: "Pt Sans";
+}
+.help-list-item-content h1 {
+	margin-top: 0;
+	padding: 0 30px;
+}
+.help-list-item-content h1:after {
+	margin-bottom: 10px;
+}
+.help-list-item-content h2 {
+	font-family: "Pt Sans Bold";
+	font-size: 24px;
+	margin-bottom: 20px;
+	margin-top: 0;
+	text-align: left;
+}
+.help-list-item-content h2:after {
+	content: '';
+	margin: 0;
+	padding: 0;
+}
+.help-list-item-content h3 {
+	font-family: "Pt Sans";
+	font-size: 25px;
+	margin-bottom: 10px;
+	font-style: italic;
+	margin-top: 0;
+	text-align: left;
+	color: rgb(129,129,129);
+}
+.help-list-item-content {
+	font-size: 16px;
+	line-height: 24px;
+}
+.help-list-item-content p {
+	margin-bottom: 30px;
+}
+.help-list-item-content .help-detail-useful {
+	color: rgb(172,172,172);
+	text-transform: uppercase;
+	font-size: 13px;
+	text-align: right;
+}
+.help-list-item-content .help-detail-useful-yes, .help-list-item-content .help-detail-useful-no {
+	border: 1px solid #000;
+	padding: 3px 8px;
+	text-transform: none;
+	display: inline-block;
+	line-height: 14px;
+	font-size: 12px;
+	margin-left: 15px;
+	cursor: pointer;
+	color: #000;
+}
+.help-list-item-content .help-detail-useful-yes:hover {
+	background-color: rgb(65,241,131);
+	border: 1px solid rgb(65,241,131);
+}
+.help-list-item-content .help-detail-useful-no {
+	margin-left: 5px;
+}
+.help-list-item-content .help-detail-useful-no:hover {
+	background-color: rgb(249,114,67);
+	border: 1px solid rgb(249,114,67);
+}

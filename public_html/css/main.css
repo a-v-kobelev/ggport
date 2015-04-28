@@ -118,3 +118,9 @@ b, strong {
 	background: url(../images/icon_calendar.png) center center no-repeat;
 	cursor: pointer;
 }
+.float {
+	float: left;
+}
+.float-right {
+	float: right;
+}

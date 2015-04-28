@@ -16,6 +16,7 @@
 }
 .footer-inner .footer-item:last-child {
 	margin-right: 0;
+	width: 25%;
 }
 .footer-inner  a {
 	color: #fff;
@@ -205,10 +206,6 @@
 	margin-top: 50px;
 	height: 75px;
 	background-color: rgb(91,91,91);
-	padding-left: 216px;
-}
-.footer-feedback.no-padding {
-	padding-left: 0;
 }
 .footer-feedback a {
 	display: block;
@@ -221,13 +218,13 @@
 	font-size: 20px;
 	font-family: "Pt Sans Bold";
 	text-decoration: none;
-	padding-right: 30%;
 }
 .footer-feedback a:hover {
 	background-color: rgb(71,71,71);
 }
 .footer-feedback.no-padding a {
 	padding-right: 0;
+	padding-left: 0;
 }
 .footer-feedback a span {
 	position: relative;

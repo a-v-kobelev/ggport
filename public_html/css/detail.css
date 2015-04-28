@@ -460,6 +460,25 @@
 	width: 30%;
 	margin-top: 180px;
 }
+.form-container .form-container-right.tarif-right {
+	margin-top: 150px;
+}
+.form-container .banner-right {
+	background: rgb(150,241,205);
+	margin-left: 45px;
+	padding: 20px;
+	font-family: "Pt Sans";
+	line-height: 24px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.form-container .banner-right b, .form-container .banner-right strong {
+	font-family: "Pt Sans Bold";
+}
+.form-container .banner-right-day {
+	display: block;
+	padding-top: 20px;
+}
 .form-container .form-container-right-item {
 	margin-left: 60px;
 	font-size: 15px;
@@ -467,6 +486,9 @@
 	padding-left: 20px;
 	line-height: 24px;
 	position: relative;
+}
+.form-container .form-container-right.tarif-right .form-container-right-item.second {
+	margin-top: 30px;
 }
 .form-container .form-container-right-item.second {
 	margin-top: 120px;
@@ -959,6 +981,92 @@ textarea.form:focus + .comment-add-submit {
 	font-family: "Roboto Condensed Light";
 	padding-left: 30px;
 }
+.tarif-block .tarif-list .tarif-list-cost .tarif-old {
+	font-size: 16px;
+	font-family: "Roboto Condensed Light";
+	display: block;
+	padding-left: 34px;
+	color: rgb(10,207,130);
+	text-decoration: line-through;
+}
+.tarif-block .tafif-choice {
+	height: 180px;
+}
+.tarif-block .tafif-choice td {
+	width: 100%;
+}
+.tarif-block .tafif-choice .tarif-choice-block {
+	border: 2px solid rgb(42,149,244);
+	width: 100%;
+	height: 180px;
+	margin: 10px 0;
+	box-sizing: border-box;
+}
+.tarif-block .tarif-choice-block {
+	padding-top: 20px;
+}
+.tarif-block .tarif-choice-block-top {
+	margin: 0 10px;
+	height: 70px;
+	border-bottom: 1px solid #cae4fc;
+}
+.tarif-block .tarif-choice-block-top .tarif-list-cost {
+	color: rgb(42,149,244);
+}
+.tarif-block .tarif-choice-block-top .choice-time-text {
+	padding-right: 10px;
+}
+.tarif-choice-block-bottom {
+	padding-top: 30px;
+}
+.tarif-block .tarif-choice-block-top-middle {
+	padding-left: 20px;
+}
+.tarif-choice-block-top-middle .choice-time {
+	line-height: 52px;
+	padding-left: 20px;
+}
+.tarif-choice-block-top-middle .choice-cost {
+	line-height: 52px;
+	padding-left: 20px;
+}
+.tarif-block .tarif-choice-block-top .tarif-choice-block-top-submit {
+	padding-top: 4px;
+}
+.tarif-block .tarif-choice-block-top .tarif-choice-block-top-submit a {
+	border: 1px solid rgb(67,246,234);
+	padding: 10px;
+	text-transform: uppercase;
+	font-size: 16px;
+	display: inline-block;
+	color: #000;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: bold;
+	background-color: rgb(67,246,234);
+}
+.tarif-block .tarif-choice-block-top .tarif-choice-block-top-submit a:hover {
+	background-color: #fff;
+}
+.tarif-block .tarif-choice-block-top .choice-cost-text {
+	color: rgb(42,149,244);
+}
+.tarif-block .tarif-choice-block-top-submit {
+	float: right;
+}
+.tarif-choice-block-bottom {
+	padding-left: 40px;
+}
+.tarif-choice-block-bottom .tarif-free {
+	padding-top: 3px;
+	padding-right: 20px;
+}
+.tarif-choice-block-bottom .tarif-download {
+	padding-right: 20px;
+}
+.tarif-choice-block-bottom .tarif-prolong {
+	padding-right: 10px;
+}
 .form-container .form-container-right-item.tarif-license:before {
 	content: url(../images/icon_tarif_cost.png);
 }
@@ -969,8 +1077,45 @@ textarea.form:focus + .comment-add-submit {
 	cursor: pointer;
 }
 .tarif-block .tarif-list .tarif-icon-infinity {
-	padding: 0 4px;
-	background: url(../images/icon_tarif_infinity.png) left top no-repeat;
+	background: url(../images/icon_tarif_infinity.png) left 1px no-repeat;
+	float: left;
+	width: 20px;
+	height: 12px;
+}
+.tarif-block .tarif-list .tarif-icon-free {
+	float: left;
+	margin-left: 4px;
+	width: 28px;
+	height: 13px;
+	background: url(../images/icon_free_grey.png) center center no-repeat;
+}
+.tarif-block .tarif-list .tarif-icon-download {
+	float: left;
+	width: 13px;
+	height: 17px;
+	background: url(../images/icon_download_grey.png) center top no-repeat;
+}
+.tarif-block .tarif-list .tarif-download-text {
+	float: left;
+	font-size: 13px;
+	font-family: "Pt Sans";
+	line-height: 17px;
+	margin-left: 6px;
+	margin-top: 1px;
+}
+.tarif-block .tarif-list .tarif-icon-project {
+	float: left;
+	width: 13px;
+	height: 17px;
+	background: url(../images/icon_download_grey.png) center top no-repeat;
+}
+.tarif-block .tarif-list .tarif-project-text {
+	float: left;
+	font-size: 13px;
+	font-family: "Pt Sans";
+	line-height: 17px;
+	margin-left: 6px;
+	margin-top: 1px;
 }
 .tarif-block .tarif-list tr:nth-child(odd) {
 	background-color: rgb(241,241,241);
@@ -980,8 +1125,17 @@ textarea.form:focus + .comment-add-submit {
 	background-color: #fff;
 	color: rgb(42,149,244);
 }
-.tarif-block .tarif-list .tarif-list-hover .tarif-list-cost {
+.tarif-block .tarif-list .tarif-list-hover .tarif-list-cost, .tarif-block .tarif-list .tarif-list-hover .tarif-download-text, .tarif-block .tarif-list .tarif-list-hover .tarif-project-text {
 	color: rgb(42,149,244);
+}
+.tarif-block .tarif-list .tarif-list-hover .tarif-icon-infinity {
+	background: url(../images/icon_tarif_infinity.png) left -12px no-repeat;
+}
+.tarif-block .tarif-list .tarif-list-hover .tarif-icon-download {
+	background: url(../images/icon_download_grey.png) center -48px no-repeat;
+}
+.tarif-block .tarif-list .tarif-list-hover .tarif-icon-project {
+	background: url(../images/icon_download_grey.png) center -48px no-repeat;
 }
 .modal-block {
 	width: 100%;

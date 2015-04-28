@@ -262,6 +262,26 @@ $(function(){
 	    }
 	});
 
+	$(".modal-help").fancybox({
+		padding: 30,
+		type: 'inline',
+		wrapCSS: 'detail-photo',
+		scrolling: 'no',
+		autoSize : false,
+		minHeight: 640,
+		onUpdate: function(){
+			var height = $(".fancybox-wrap").find(".help-list-item-content").height();
+			$(".fancybox-inner").height(height);
+		},
+		helpers : {
+	        overlay : {
+	            css : {
+	                'background' : 'rgba(255, 255, 255, 0.5)'
+	            }
+	        }
+	    }
+	});
+
 	$(".fancybox-detail").click(function(event){
 		var item = $(".detail-catalog-item");
 		var f = [];

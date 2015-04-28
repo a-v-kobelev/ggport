@@ -476,6 +476,7 @@ input[type="submit"].styler[disabled] {
 }
 .change-pagination-option.jq-selectbox li {
 	color: #000;
+	background-color: #fff;
 }
 .change-pagination-option.jq-selectbox.focused .jq-selectbox__select {
 	background: #fff !important;
@@ -576,4 +577,7 @@ input[type="submit"].styler[disabled] {
 .change-pagination.profile-select .jq-selectbox__dropdown {
 	border: 1px solid rgb(210,210,210);
 	width: 100% !important;
+}
+.tarif-time-select .jq-selectbox__select-text {
+	color: rgb(42,149,244);
 }

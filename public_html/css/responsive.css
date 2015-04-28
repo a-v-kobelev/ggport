@@ -32,6 +32,15 @@
   .all-comment-block {
     margin-left: -200px;
   }
+  .tarif-block .tarif-list .tarif-download-text, .tarif-block .tarif-list .tarif-project-text {
+    font-size: 9px;
+  }
+}
+@media screen and (min-width: 1020px) and (max-width: 1290px) {
+  .form-container {
+    width: 98%;
+  }
+  
 }
 @media screen and (max-width: 1020px) {
   .category-container .category-slide {
