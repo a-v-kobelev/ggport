@@ -196,3 +196,46 @@
 	opacity: 1;
 	filter: alpha(opacity=100);
 }
+.footer-line-grey {
+	margin-top: 50px;
+	height: 210px;
+	background-color: rgb(59,59,59);
+}
+.footer-feedback {
+	margin-top: 50px;
+	height: 75px;
+	background-color: rgb(91,91,91);
+	padding-left: 216px;
+}
+.footer-feedback.no-padding {
+	padding-left: 0;
+}
+.footer-feedback a {
+	display: block;
+	height: 75px;
+	text-align: center;
+	line-height: 75px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 20px;
+	font-family: "Pt Sans Bold";
+	text-decoration: none;
+	padding-right: 30%;
+}
+.footer-feedback a:hover {
+	background-color: rgb(71,71,71);
+}
+.footer-feedback.no-padding a {
+	padding-right: 0;
+}
+.footer-feedback a span {
+	position: relative;
+}
+.footer-feedback a span:after {
+	content: url('../images/icon_feedback_arrow.png');
+	position: absolute;
+  	top: -20px;
+  	height: 25px;
+  	right: -30px;
+}

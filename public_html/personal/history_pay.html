@@ -32,7 +32,7 @@
         <script type="text/javascript" src="../js/jquery.custom-scrollbar.js"></script>
         <script type="text/javascript" src="../js/jquery.qtip.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Личный кабинет - сообщения</title>
+        <title>Личный кабинет - история платежей</title>
     </head>
     <body>
         <div class="wrapper">
@@ -96,15 +96,16 @@
             <div class="content">
                 <div class="filter-container" id="filter-container">
                     <div class="filter-params navigation-return">
-                        <a href="#" class="navigation-return-back">Вернуться<br />к результатам </a><span>(256)</span>
+                        <a href="#" class="navigation-return-back single">Вернуться к каталогу</a>
                     </div>
                     <div class="left-menu">
-                        <div class="left-menu-title">Личные данные</div>
+                        <div class="left-menu-title">Личный кабинет</div>
                         <ul>
+                            <li><a href="#">Личные данные</a></li>
                             <li><a href="#">Пополнить счет</a></li>
-                            <li><a href="#">История платежей</a></li>
+                            <li>История платежей</li>
                             <li><a href="#">Проекты</a></li>
-                            <li>Комментарии и сообщения</li>
+                            <li><a href="#">Комментарии и сообщения</a></li>
                             <li><a href="#">Статистика</a></li>
                         </ul>
                     </div>
@@ -141,56 +142,55 @@
                         <div class="clearfix"></div>
                     </div>
                     <div class="catalog-items">
-                        <div class="personal-comment">
-                            <h1>Комментарии и сообщения</h1>
+                        <div class="personal-comment history-pay">
+                            <h1>История платежей</h1>
                             <table>
                                 <tr class="first">
-                                    <td class="personal-comment-title"><a href="#" class="personal-comment-sort">Дата</a>
+                                    <td class="personal-comment-title title-date"><a href="#" class="personal-comment-sort">Дата</a>
                                         <span class="calendar">янв 2015<span class="icon_calendar"></span> &mdash; янв 2012<span class="icon_calendar"></span> <span class="calendar_button">ok</span></span></td>
-                                    <td class="personal-comment-title filter-comment"><a href="#">Сообщение</a>/<a href="#">Комментарий</a></td>
+                                    <td class="personal-comment-title"><a href="#">Тариф</a><span class="title-subheader">(руб/мес)</span></td>
+                                    <td class="personal-comment-title">Период оплаты</td>
+                                    <td class="personal-comment-title">Оплачено<span class="title-subheader">(руб.)</span></td>
+                                    <td class="personal-comment-title">Способ оплаты</td>
+                                    <td class="personal-comment-title">Распечатать</td>
                                 </tr>
                                 <tr>
                                     <td class="personal-comment-date">20 янв 2015<span class="personal-comment-hours">09:47</span></td>
-                                    <td class="personal-comment-item">Хочу узнать условия приема заявок?
-                                        <div class="personal-comment-answer">ответ CGPORT: <span class="personal-comment-status">Ваш вопрос ожидает ответа</span></div></td>
-                                </tr>
-                                <tr>
-                                    <td class="personal-comment-date">18 дек 2014 <span class="personal-comment-hours">09:47</span></td>
-                                    <td class="personal-comment-item">
-                                        <span class="personal-comment-link">Ваш комментарий к</span> <a href="#">Fabio armchair</a>:
-                                        <span class="personal-comment-text">Это лучшее, что я видел за последнее время! Удивительная проработка деталей, шикарный цвет и текстуры.</span>
-                                    </td>
+                                    <td class="personal-comment-item">20</td>
+                                    <td class="personal-comment-item">3 мес</td>
+                                    <td class="personal-comment-item">2,785.60</td>
+                                    <td class="personal-comment-item">Credit card</td>
+                                    <td class="personal-comment-item"><a class="action-print" href="#"><img src="../images/icon_action_print.png" alt=""></a></td>
                                 </tr>
                                 <tr>
                                     <td class="personal-comment-date">20 янв 2015<span class="personal-comment-hours">09:47</span></td>
-                                    <td class="personal-comment-item">Хочу узнать условия приема заявок?
-                                        <div class="personal-comment-answer">ответ CGPORT:</div>
-                                        <span class="personal-comment-text personal-comment-text-answer">Все условия прописаны <a href="#">здесь</a></span>
-                                    </td>
+                                    <td class="personal-comment-item">20</td>
+                                    <td class="personal-comment-item">3 мес</td>
+                                    <td class="personal-comment-item">2,785.60</td>
+                                    <td class="personal-comment-item">Credit card</td>
+                                    <td class="personal-comment-item"><a class="action-print" href="#"><img src="../images/icon_action_print.png" alt=""></a></td>
                                 </tr>
                                 <tr>
                                     <td class="personal-comment-date">20 янв 2015<span class="personal-comment-hours">09:47</span></td>
-                                    <td class="personal-comment-item">Хочу узнать условия приема заявок?
-                                        <div class="personal-comment-answer">ответ CGPORT: <span class="personal-comment-status">Ваш вопрос ожидает ответа</span></div></td>
-                                </tr>
-                                <tr>
-                                    <td class="personal-comment-date">18 дек 2014 <span class="personal-comment-hours">09:47</span></td>
-                                    <td class="personal-comment-item">
-                                        <span class="personal-comment-link">Ваш комментарий к</span> <a href="#">Fabio armchair</a>:
-                                        <span class="personal-comment-text">Это лучшее, что я видел за последнее время! Удивительная проработка деталей, шикарный цвет и текстуры.</span>
-                                    </td>
+                                    <td class="personal-comment-item">20</td>
+                                    <td class="personal-comment-item">3 мес</td>
+                                    <td class="personal-comment-item">2,785.60</td>
+                                    <td class="personal-comment-item">Credit card</td>
+                                    <td class="personal-comment-item"><a class="action-print" href="#"><img src="../images/icon_action_print.png" alt=""></a></td>
                                 </tr>
                                 <tr>
                                     <td class="personal-comment-date">20 янв 2015<span class="personal-comment-hours">09:47</span></td>
-                                    <td class="personal-comment-item">Хочу узнать условия приема заявок?
-                                        <div class="personal-comment-answer">ответ CGPORT:</div>
-                                        <span class="personal-comment-text personal-comment-text-answer">Все условия прописаны <a href="#">здесь</a></span>
-                                    </td>
+                                    <td class="personal-comment-item">20</td>
+                                    <td class="personal-comment-item">3 мес</td>
+                                    <td class="personal-comment-item">2,785.60</td>
+                                    <td class="personal-comment-item">Credit card</td>
+                                    <td class="personal-comment-item"><a class="action-print" href="#"><img src="../images/icon_action_print.png" alt=""></a></td>
                                 </tr>
                             </table>
                         </div>
                     </div>
                 </div>
+                <div class="clearfix"></div>
                 <div class="pagination-block">
                     <ul>
                         <li class="pagination-prev"><a href="#">&nbsp;</a></li>
@@ -201,26 +201,8 @@
                         <li class="pagination-next"><a href="#">&nbsp;</a></li>
                     </ul>
                 </div>
-                <div class="clearfix"></div>
-                <div class="footer-line-grey">
-                    <div class="personal-comment-form">
-                        <div class="personal-comment-form-title">Обратная связь</div>
-                        <div class="personal-comment-form-choice">
-                            <select name="" id="" class="select select-comment">
-                                <option value="" class="select-comment-option">Выберите тему сообщения</option>
-                                <option value="" class="select-comment-option">Вопрос порталу</option>
-                                <option value="" class="select-comment-option">Жалоба</option>
-                                <option value="" class="select-comment-option">Предложение</option>
-                                <option value="" class="select-comment-option">Оплата</option>
-                            </select>
-                        </div>
-                        <div class="form-textarea">
-                            <textarea name="" class="form" id="" cols="30" rows="10" placeholder="Введите текст сообщения..."></textarea>
-                            <div class="comment-add-submit">
-                                <button>отправить</button>
-                            </div>
-                        </div>
-                    </div>
+                <div class="footer-feedback no-padding">
+                    <a href="#"><span>Обратная связь</span></a>
                 </div>
             </div>
             <div class="buffer"></div>

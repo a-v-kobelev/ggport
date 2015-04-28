@@ -821,8 +821,8 @@ span.icon-next {
 	line-height: 18px;
 	height: 18px;
 	border: 1px solid rgb(210,210,210);
-	font-size: 0.813em;
-	font-family: "Roboto Condensed Bold";
+	font-size: 13px;
+	font-weight: bold;
 	text-decoration: none;
 	color: #000;
 	transition: none;
@@ -888,12 +888,33 @@ span.icon-next {
 	font-family: "Pt Sans";
 	font-size: 0.750em;
 }
+.personal-comment h1 {
+	margin-top: 0;
+	padding-top: 80px;
+}
 .personal-comment .personal-comment-title {
 	color: rgb(164,164,164);
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	text-align: center;
 	line-height: 18px;
+	width: 230px;
+	padding: 10px 0;
+}
+.personal-comment .personal-comment-title.filter-comment {
+	text-align: left;
+}
+.personal-comment .personal-comment-title a {
+	color: rgb(164,164,164);
+	position: relative;
+}
+.personal-comment .personal-comment-title .personal-comment-sort {
+	padding-right: 10px;
+	background: url(../images/icon_date_arrow.png) right 2px no-repeat;
+}
+.personal-comment .personal-comment-title .personal-comment-sort.up {
+	padding-right: 10px;
+	background: url(../images/icon_date_arrow.png) right -17px no-repeat;
 }
 .personal-comment .calendar_button {
 	text-transform: none;
@@ -903,8 +924,25 @@ span.icon-next {
 .personal-comment .personal-comment-date {
 	width: 200px;
 }
+.personal-comment table {
+	width: 90%;
+	margin: 0 auto 60px;
+}
 .personal-comment table tr {
 	border: 1px solid rgb(241,241,241);
+}
+.personal-comment table tr:hover {
+	background-color: rgb(243,243,243);
+	opacity: .8;
+	filter: alpha(opacity=80);
+}
+.personal-comment table tr:nth-child(odd) {
+	background-color: rgb(232,232,232);
+	opacity: .8;
+	filter: alpha(opacity=80);
+}
+.personal-comment table tr:first-child {
+	background-color: #fff;
 }
 .personal-comment table tr.first {
 	border: none;
@@ -932,4 +970,200 @@ span.icon-next {
 }
 .personal-comment .personal-comment-answer .personal-comment-status {
 	color: rgb(22,203,132);
+}
+.personal-comment .personal-comment-date {
+	text-transform: uppercase;
+}
+.personal-comment .personal-comment-hours {
+	display: block;
+	color: rgb(164,164,164);
+}
+.personal-comment .calendar {
+	font-size: 1.167em;
+}
+.personal-comment .personal-comment-link {
+	color: rgb(164,164,164);
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 0.800em;
+}
+.personal-comment .personal-comment-text {
+	display: block;
+	line-height: 18px;
+	margin-top: 3px;
+}
+.personal-comment .personal-comment-text a {
+	color: #000;
+}
+.personal-comment .personal-comment-text-answer {
+	margin-left: 25px;
+}
+.personal-comment-form {
+	width: 680px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.personal-comment-form .personal-comment-form-title {
+	width: 200px;
+	float: left;
+	font-family: "Pt Sans Bold";
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 36px;
+	margin-bottom: 6px;
+}
+.personal-comment-form .personal-comment-form-choice {
+	width: 480px;
+	float: left;
+	text-align: right;
+	margin-bottom: 6px;
+}
+.progressbar-complete {
+	height: 13px;
+	position: relative;
+	background-color: rgb(87,238,179);
+}
+.progressbar-complete span.progress-background {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 13px;
+	background-color: rgb(241,241,241);
+	width: auto;
+}
+.progressbar-complete span.progress-arrow {
+	position: absolute;
+	left: -4px;
+	top: -5px;
+	width: 7px;
+	height: 5px;
+	background: url(../images/icon_progressbar_arrow.png) center center no-repeat;
+}
+.progressbar-complete-title {
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 8px;
+	font-size: 0.917em;
+	color: rgb(171,171,171);
+}
+.profile .profile-change-password {
+	text-align: center;
+	margin-bottom: 60px;
+}
+.profile .profile-change-password a {
+	font-size: 10px;
+	text-transform: uppercase;
+	color: rgb(172,172,172);
+}
+.profile .profile-subheader {
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.history-pay .title-date {
+	min-width: 200px;
+}
+.history-pay .title-date, .history-pay .personal-comment-date {
+	padding-right: 20px;
+}
+.history-pay .personal-comment-item {
+	text-align: center;
+	text-transform: uppercase;
+}
+.history-pay .personal-comment-title span.title-subheader {
+	display: block;
+	text-transform: none;
+}
+.history-pay .action-print {
+	transition: none;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+.history-pay table tr:nth-child(odd) .action-print {
+	border: 1px solid rgb(232,232,232);
+}
+.history-pay table tr:hover .action-print {
+	border: 1px solid rgb(243,243,243);
+}
+.history-pay .action-print:hover, .history-pay table tr:nth-child(odd) .action-print:hover, .history-pay table tr:hover .action-print:hover {
+	border: 1px solid #000;
+}
+.help-block  {
+	margin-right: 226px;
+	font-family: "Pt Sans";
+}
+.help-block .help-descr {
+	width: ;
+	text-align: center;
+	font-size: 14px;
+	color: rgb(163,163,163);
+}
+.help-block .help-container {
+	max-width: 800px;
+	width: 80%;
+	margin: 0 auto;
+	line-height: 24px;
+}
+.help-block .help-list {
+	text-align: center;
+	margin-top: 70px;
+}
+.help-block .help-list-themes-link {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+.help-block .help-list-themes-link span {
+	border-bottom: 1px dashed #000;
+}
+.help-block .help-list-themes {
+	margin-bottom: 25px;
+}
+.help-block .help-list-themes-link {
+	padding-right: 30px;
+	background: url(../images/icon_help_arrow.png) right top no-repeat;
+}
+.help-block .help-list-themes-link.help-list-themes-link-opened {
+	background: url(../images/icon_help_arrow.png) right -34px no-repeat;
+}
+.help-block .help-list-themes-link:hover span {
+	border-bottom: none;
+}
+.help-block .help-list-item-block {
+	display: none;
+	margin-top: 20px;
+	padding-bottom: 30px;
+}
+.help-block .help-list-item-block li {
+	padding: 8px 0;
+}
+.help-block .help-list-item-block.help-list-item-block-opened {
+	display: block;
+}
+.help-block .help-list-item-link {
+	padding-right: 20px;
+	background: url(../images/icon_help_item_arrow.png) right 5px no-repeat;
+	font-size: 15px;
+	color: #000;
+	text-decoration: none;
+	transition: none;
+}
+.help-block .help-list-item-link span {
+	border-bottom: 1px dashed #000;
+}
+.help-block .help-list-item-link:hover {
+	color: rgb(72,163,244);
+	background: url(../images/icon_help_item_arrow.png) right -29px no-repeat;	
+}
+.help-block .help-list-item-link:hover span {
+	border-bottom: 1px dashed rgb(72,163,244);
 }

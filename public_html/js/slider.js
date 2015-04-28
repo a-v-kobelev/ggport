@@ -252,7 +252,7 @@ $(function(){
 		wrapCSS: 'detail-photo',
 		scrolling: 'no',
 		autoSize : false,
-		minHeight: 620,
+		minHeight: 640,
 		helpers : {
 	        overlay : {
 	            css : {
@@ -302,5 +302,10 @@ $(function(){
     }).
     mouseout(function(){
     	$(this).removeClass("tarif-list-hover");
+    });
+
+    $(".personal-comment-sort").click(function(event){
+    	$(this).toggleClass("up");
+    	event.preventDefault();
     });
 });

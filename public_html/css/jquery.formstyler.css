@@ -501,3 +501,79 @@ input[type="submit"].styler[disabled] {
 	background-color: #000;
 	color: #fff;
 }
+.select-comment .jq-selectbox__select {
+	opacity: .4;
+	filter: alpha(opacity=40);
+}
+.select-comment .jq-selectbox__select, .select-comment.jq-selectbox.opened .jq-selectbox__select, .select-comment-option.jq-selectbox.focused .jq-selectbox__select {
+	border: none;
+	background: rgb(67,246,234);
+	color: rgb(91,91,91);
+}
+.select-comment .jq-selectbox__trigger {
+	background: url(../images/icon_select_arrow.png) center center no-repeat;
+}
+.select-comment .jq-selectbox__dropdown {
+	border: none;
+	width: 100% !important;
+}
+.select-comment .jq-selectbox__select-text {
+	text-align: left;
+}
+.select-comment-option {
+	width: 100%;
+}
+.select-comment-option.jq-selectbox li.selected {
+	background-color: rgb(67,246,234);
+}
+.select-comment-option.jq-selectbox li {
+	text-align: left;
+	box-sizing: border-box;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 10px;
+}
+.select-comment-option.jq-selectbox li:hover {
+	background-color: rgb(67,246,234);
+}
+.change-pagination.profile-select .jq-selectbox__dropdown {
+	border: none;
+	width: 100% !important;
+}
+.change-pagination.profile-select-option {
+	width: 100%;
+	text-align: center;
+}
+.change-pagination.profile-select .jq-selectbox__select-text {
+	width: 100% !important;
+	text-align: center;
+	font-size: 14px;
+}
+.change-pagination.profile-select .jq-selectbox__select {
+	padding: 0;
+}
+.change-pagination.profile-select .jq-selectbox__select, .change-pagination.profile-select.jq-selectbox.opened .jq-selectbox__select, .change-pagination.profile-select.jq-selectbox.focused .jq-selectbox__select {
+	border: 1px solid rgb(210,210,210);
+	background: #fff;
+	color: #000;
+}
+.change-pagination.profile-select.jq-selectbox li.selected {
+	background-color: #000;
+	color: #fff;
+}
+.change-pagination.profile-select.jq-selectbox li {
+	box-sizing: border-box;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 10px;
+	color: #000;
+	font-size: 14px;
+}
+.change-pagination.profile-select.jq-selectbox li:hover {
+	background-color: #000;
+	color: #fff;
+}
+.change-pagination.profile-select .jq-selectbox__dropdown {
+	border: 1px solid rgb(210,210,210);
+	width: 100% !important;
+}
