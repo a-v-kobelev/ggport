@@ -246,23 +246,7 @@ $(function(){
 	    }
 	});
 
-	$(".auth").fancybox({
-		padding: 30,
-		type: 'inline',
-		wrapCSS: 'detail-photo',
-		scrolling: 'no',
-		autoSize : false,
-		minHeight: 640,
-		helpers : {
-	        overlay : {
-	            css : {
-	                'background' : 'rgba(255, 255, 255, 0.5)'
-	            }
-	        }
-	    }
-	});
-
-	$(".modal-help").fancybox({
+	$(".modal").fancybox({
 		padding: 30,
 		type: 'inline',
 		wrapCSS: 'detail-photo',

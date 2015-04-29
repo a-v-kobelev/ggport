@@ -46,6 +46,13 @@ a:hover {
 a:visited {
 	color: rgb(172,172,172);
 }
+a.blue {
+	color: rgb(47,151,244);
+	text-decoration: underline;
+}
+a.blue:hover {
+	text-decoration: none;
+}
 i, em {
 	font-style: italic;
 }

@@ -23,13 +23,6 @@
          url('fonts/PTS75F-webfont.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'Pf Din Medium';
-    src: url('fonts/pfdintextcondpro-medium-webfont.eot');
-    src: url('fonts/pfdintextcondpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/pfdintextcondpro-medium-webfont.woff') format('woff'),
-         url('fonts/pfdintextcondpro-medium-webfont.ttf') format('truetype');
-}
-@font-face {
     font-family: 'Kelson Sans';
     src: url('fonts/KelsonSansRegular.eot');
     src: url('fonts/KelsonSansRegular.eot?#iefix') format('embedded-opentype'),
@@ -42,4 +35,11 @@
     src: url('fonts/KelsonSansBold.eot?#iefix') format('embedded-opentype'),
          url('fonts/KelsonSansBold.woff') format('woff'),
          url('fonts/KelsonSansBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Kelson Sans Light';
+    src: url('fonts/KelsonSansLight.eot');
+    src: url('fonts/KelsonSansLight.eot?#iefix') format('embedded-opentype'),
+         url('fonts/KelsonSansLight.woff') format('woff'),
+         url('fonts/KelsonSansLight.ttf') format('truetype');
 }
