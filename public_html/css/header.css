@@ -65,7 +65,7 @@
 .header-right .header-change-lang {
 	float: right;
   	margin-right: 30px;
-  	margin-top: 18px;
+  	margin-top: 16px;
 }
 .header-right .header-change-lang ul {
 	width: 130px;
@@ -81,11 +81,14 @@
   	display: block;
 }
 .header-right .header-change-lang li.active {
-	background: url(../images/icon_earth.png) 10px center no-repeat;
+	background: url(../images/icon_earth.png) 10px 9px no-repeat;
 	border-top: 1px solid rgb(47,50,51);
 	border-right: 1px solid rgb(47,50,51);
 	border-left: 1px solid rgb(47,50,51);
 	cursor: pointer;
+}
+.header-right .header-change-lang li.active:hover {
+	background: url(../images/icon_earth.png) 10px -36px no-repeat;
 }
 .header-right .header-change-lang li.active a {
 	padding-right: 26px;
@@ -166,9 +169,11 @@
 	line-height: 65px;
 	color: #fff;
 	text-decoration: none;
-	padding: 4px 10px;
+	padding: 5px 20px;
 	text-transform: uppercase;
 	font-size: 0.875em;
+	font-weight: bold;
+	letter-spacing: 1px;
 }
 .header-right .header-auth a:hover {
 	background: #fff;
@@ -251,7 +256,7 @@
 .header-search .logo img {
 	vertical-align: middle;
 	padding-right: 34px;
-	border-right: 2px solid rgb(67,246,234);
+	border-right: 1px solid rgb(67,246,234);
 }
 .header-search .header-slogan {
 	color: #fff;

@@ -500,6 +500,12 @@
 .form-container .form-container-right.tarif-right {
 	margin-top: 374px;
 }
+.catalog-detail-block .form-container .form-container-right.tarif-right {
+	margin-top: 534px;
+}
+.catalog-detail-block .form-container {
+	margin-bottom: 60px;
+}
 .form-container .banner-right {
 	background: rgb(150,241,205);
 	margin-left: 45px;
@@ -508,6 +514,16 @@
 	line-height: 24px;
 	text-transform: uppercase;
 	margin-bottom: 50px;
+}
+.banner-top {
+	background: rgb(150,241,205);
+	padding: 20px;
+	font-family: "Pt Sans";
+	line-height: 24px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	font-size: 13px;
+	text-align: center;
 }
 .form-container .banner-right b, .form-container .banner-right strong {
 	font-family: "Pt Sans Bold";
@@ -700,6 +716,10 @@
 .devider {
 	height: 20px;
 	text-align: center;
+}
+.devider-margin {
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 .form-container input[type=submit] {
 	border: none;

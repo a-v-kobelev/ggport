@@ -1,4 +1,4 @@
-﻿@font-face {
+@font-face {
     font-family: 'Roboto Condensed Light';
     src: url('fonts/RobotoCondensedLight.eot');
     src: url('fonts/RobotoCondensedLight.eot?#iefix') format('embedded-opentype'),
@@ -41,5 +41,5 @@
     src: url('fonts/KelsonSansLight.eot');
     src: url('fonts/KelsonSansLight.eot?#iefix') format('embedded-opentype'),
          url('fonts/KelsonSansLight.woff') format('woff'),
-         url('fonts/KelsonSansLight.ttf') format('truetype');
+         url('fonts/KelsonSansLightw.ttf') format('truetype');
 }
