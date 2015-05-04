@@ -490,13 +490,13 @@ input[type="submit"].styler[disabled] {
 	background: #fff;
 }
 .change-pagination-three.opened .jq-selectbox__dropdown {
-	width: 108px !important;
+	width: 128px !important;
 }
 .change-pagination-three.jq-selectbox .jq-selectbox__select-text {
-	width: 100px !important;
+	width: 128px !important;
 }
 .change-pagination-option.change-pagination-three.jq-selectbox li {
-	width: 87px;
+	width: 128px;
 }
 .change-pagination-option.change-pagination-white.jq-selectbox li:hover {
 	background-color: #000;

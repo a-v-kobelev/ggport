@@ -53,6 +53,13 @@ a.blue {
 a.blue:hover {
 	text-decoration: none;
 }
+a.grey {
+	color: #000;
+	text-decoration: none;
+}
+a.grey:hover {
+	text-decoration: underline;
+}
 i, em {
 	font-style: italic;
 }
@@ -111,6 +118,9 @@ b, strong {
 .block-center {
 	text-align: center;
 }
+.block-left {
+	text-align: left;
+}
 .block {
 	overflow: hidden;
 }
@@ -130,4 +140,7 @@ b, strong {
 }
 .float-right {
 	float: right;
+}
+.transform-uppercase {
+	text-transform: uppercase;
 }

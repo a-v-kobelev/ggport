@@ -68,3 +68,13 @@ function showItem(obj) {
     var current_width = width_item * show;
     model.width(current_width);
 }
+
+function showModelItem(obj) {
+  var container = $(obj);
+  var size = container.width();
+  var model_item = container.find("li");
+  var width_item = model_item.width();
+  var show = Math.floor(size / width_item);
+  var marginRight = Math.floor((size - show * width_item) / show);
+  model_item.css("margin-right", marginRight);
+}

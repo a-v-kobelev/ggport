@@ -135,7 +135,7 @@
 .stars span.active {
 	background-position: center -56px;
 }
-.detail-action div {
+.action-block {
 	display: inline-block;
 	width: 38px;
 	height: 38px;
@@ -148,14 +148,14 @@
 .action-add:hover {
 	background: url(../images/bg_action_add.png) center -38px no-repeat;
 }
-.action-print {
+.action-print-big {
 	width: 36px;
 	height: 36px;
 	background: url(../images/bg_action_print.jpg) center 1px no-repeat;
 	border: 1px solid #fff;
 	border-radius: 50%;
 }
-.action-print:hover {
+.action-print-big:hover {
 	background: url(../images/bg_action_print.jpg) center 1px no-repeat;
 	border: 1px solid #000;
 }
@@ -182,6 +182,12 @@
 .action-delete:hover {
 	background: url(../images/icon_action.png) -26px -28px no-repeat;
 }
+.action-print {
+	background: url(../images/icon_print.png) 10px 11px no-repeat;
+}
+.action-print:hover {
+	background: url(../images/icon_print.png) 10px -26px no-repeat;
+}
 .action-model-add {
 	background: url(../images/icon_model_add.png) 0px 8px no-repeat;
 	border: none;
@@ -190,11 +196,11 @@
 	background: url(../images/icon_model_add.png) 0px -46px no-repeat;
 	border: none !important;
 }
-.detail-action .action-share {
+.action-share {
 	background: url(../images/bg_action_share.png) center 7px no-repeat;
 	position: relative;
 }
-.detail-action .action-share .share-block {
+.action-share .share-block {
 	display: none;
 	position: absolute;
 	top: 30px;
@@ -203,17 +209,17 @@
 	background: #fff;
 	z-index: 30;
 }
-.detail-action .action-share:hover .share-block {
+.action-share:hover .share-block {
 	display: block;
 }
-.detail-action .action-share .share-block-border {
+.action-share .share-block-border {
 	margin-top: 10px;
 	border: 1px solid #000;
 	width: 80px;
 	background: #fff;
 	height: auto;
 }
-.detail-action .action-share .share-item {
+.action-share .share-item {
 	height: 24px;
 	border: 1px solid #000;
 	display: block;
@@ -223,7 +229,7 @@
 	font-family: "Pt Sans";
 	font-size: 0.875em;
 }
-.detail-action .action-share .share-item a {
+.action-share .share-item a {
 	text-decoration: none;
 	display: block;
 	padding-left: 30px;
@@ -231,13 +237,13 @@
 	width: 30px;
 	color: #000;
 }
-.detail-action .action-share .share-item.share-facebook {
+.action-share .share-item.share-facebook {
 	background: url(../images/icon_share_facebook.png) left center no-repeat;
 }
-.detail-action .action-share .share-item.share-twitter {
+.action-share .share-item.share-twitter {
 	background: url(../images/icon_share_twitter.png) left center no-repeat;
 }
-.detail-action .action-share .share-item.share-pinit {
+.action-share .share-item.share-pinit {
 	background: url(../images/icon_share_pinit.png) center center no-repeat;
 }
 .catalog-detail-block .detail-info-text {
@@ -397,12 +403,13 @@
 .model-list-add .model-list-block ul {
 	overflow: hidden;
 	height: 116px;
+	margin: 0 auto;
 }
 .model-list-add .model-list-block li {
 	float: left;
 	width: 116px;
 	height: 116px;
-	margin-right: 10px;
+	margin-right: 30px;
 	line-height: 116px;
 }
 .model-list-add .model-list-block img {
@@ -495,10 +502,10 @@
 .form-container .form-container-right {
 	float: left;
 	width: 30%;
-	margin-top: 180px;
+	margin-top: 244px;
 }
 .form-container .form-container-right.tarif-right {
-	margin-top: 374px;
+	margin-top: 380px;
 }
 .catalog-detail-block .form-container .form-container-right.tarif-right {
 	margin-top: 534px;
@@ -509,7 +516,7 @@
 .form-container .banner-right {
 	background: rgb(150,241,205);
 	margin-left: 45px;
-	padding: 20px;
+	padding: 34px;
 	font-family: "Pt Sans";
 	line-height: 24px;
 	text-transform: uppercase;
@@ -705,6 +712,7 @@
 	line-height: 16px;
 	font-family: "Pt Sans";
 	padding-top: 16px;
+	background: transparent;
 }
 .form-container .label-file {
 	text-transform: none;

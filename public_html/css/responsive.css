@@ -74,32 +74,6 @@
     min-width: 120px;
   }
 }
-@media screen and (max-width: 1020px) {
-  .category-container .category-slide {
-      width: 850px;
-  }
-  .catalog-container .catalog-detail-block {
-    margin-left: -215px;
-  }
-}
-@media screen and (min-width: 1010px) and (max-width: 1270px) {
-  .catalog-block li {
-    width: 30%;
-    box-sizing: border-box;
-  }
-}
-@media screen and (min-width: 1280px) and (max-width: 1590px) {
-  .catalog-block li {
-    width: 22%;
-    box-sizing: border-box;
-  }
-}
-@media screen and (min-width: 1590px) {
-  .catalog-block li {
-    width: 18%;
-    box-sizing: border-box;
-  }
-}
 @media screen and (max-width: 1200px) {
   .slidesjs-navigation {
     display: none;
@@ -112,6 +86,9 @@
     color: #fff;
     font-family: "Kelson Sans Bold";
     font-size: 2.500em;
+  }
+  .header-slider .slide-block .slider-button {
+    top: 260px !important;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1350px) {
@@ -163,5 +140,11 @@
   .model-list-add .model-list-block {
     width: 1530px;
     margin: 70px auto;
+  }
+}
+@media screen and (max-width: 1290px) {
+  .collage .project-list {
+    width: 420px;
+    margin-left: 350px;
   }
 }
