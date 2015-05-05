@@ -3,40 +3,41 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<link rel="stylesheet" type="text/css" href="css/reset.css">
-    	<link rel="stylesheet" type="text/css" href="css/fonts.css">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link rel="stylesheet" type="text/css" href="css/header.css">
-        <link rel="stylesheet" type="text/css" href="css/slider.css">
-        <link rel="stylesheet" type="text/css" href="css/footer.css">
-        <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-        <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
-        <link rel="stylesheet" type="text/css" href="css/jquery.formstyler.css">
-        <link rel="stylesheet" type="text/css" href="css/jquery.custom-scrollbar.css">
-        <link rel="stylesheet" type="text/css" href="css/jquery.qtip.css">
-        <link rel="stylesheet" type="text/css" href="css/catalog.css">
-        <link rel="stylesheet" type="text/css" href="css/detail.css">
-        <link rel="stylesheet" type="text/css" href="css/news.css">
-        <link rel="stylesheet" type="text/css" href="css/responsive.css">
-        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-        <script type="text/javascript" src="js/jquery-ui.js"></script>
-        <script type="text/javascript" src="js/media.match.min.js"></script>
-        <script type="text/javascript" src="js/jquery.slides.min.js"></script>
-        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-        <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
-        <script type="text/javascript" src="js/media.match.min.js"></script>
-        <script type="text/javascript" src="js/function.js"></script>
-        <script type="text/javascript" src="js/slider.js"></script>
-        <script type="text/javascript" src="js/catalog.js"></script>
-        <script type="text/javascript" src="js/jquery.formstyler.js"></script>
-        <script type="text/javascript" src="js/jquery.custom-scrollbar.js"></script>
-        <script type="text/javascript" src="js/jquery.qtip.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/reset.css">
+        <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,700,300,400' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <link rel="stylesheet" type="text/css" href="../css/header.css">
+        <link rel="stylesheet" type="text/css" href="../css/slider.css">
+        <link rel="stylesheet" type="text/css" href="../css/footer.css">
+        <link rel="stylesheet" type="text/css" href="../css/owl.carousel.css">
+        <link rel="stylesheet" type="text/css" href="../css/jquery.fancybox.css">
+        <link rel="stylesheet" type="text/css" href="../css/jquery.formstyler.css">
+        <link rel="stylesheet" type="text/css" href="../css/jquery.custom-scrollbar.css">
+        <link rel="stylesheet" type="text/css" href="../css/jquery.qtip.css">
+        <link rel="stylesheet" type="text/css" href="../css/catalog.css">
+        <link rel="stylesheet" type="text/css" href="../css/detail.css">
+        <link rel="stylesheet" type="text/css" href="../css/news.css">
+        <link rel="stylesheet" type="text/css" href="../css/responsive.css">
+        <script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="../js/jquery-ui.js"></script>
+        <script type="text/javascript" src="../js/media.match.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.slides.min.js"></script>
+        <script type="text/javascript" src="../js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.fancybox.pack.js"></script>
+        <script type="text/javascript" src="../js/media.match.min.js"></script>
+        <script type="text/javascript" src="../js/function.js"></script>
+        <script type="text/javascript" src="../js/slider.js"></script>
+        <script type="text/javascript" src="../js/catalog.js"></script>
+        <script type="text/javascript" src="../js/jquery.formstyler.js"></script>
+        <script type="text/javascript" src="../js/jquery.custom-scrollbar.js"></script>
+        <script type="text/javascript" src="../js/jquery.qtip.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Каталог</title>
+        <title>Возврат</title>
     </head>
     <body>
         <div class="wrapper">
-        	<div class="header-line">
+            <div class="header-line">
                 <div class="max-width-block">
                     <div class="header-menu">
                         <ul>
@@ -63,7 +64,7 @@
                     </div> 
                     <div class="header-right">
                         <div class="header-auth">
-                            <a href="#">Вход</a>
+                            <a href="#login" class="modal">Вход</a>
                         </div>
                         <div class="header-change-lang">
                             <ul>
@@ -80,7 +81,7 @@
             </div>
             <div class="header-search">
                 <div class="max-width-block">
-                    <div class="logo"><img src="images/logo.png" alt=""></div>
+                    <div class="logo"><img src="../images/logo.png" alt=""></div>
                     <div class="header-slogan">
                         Только оригинальные 3D модели<br />
                         и высокое качество
@@ -96,10 +97,19 @@
             <div class="content">
                 <div class="filter-container" id="filter-container">
                     <div class="filter-params navigation-return">
-                        <a href="#" class="navigation-return-back">Вернуться<br />к списку новостей </a>
+                        <a href="#" class="navigation-return-back single">Вернуться к каталогу</a>
+                    </div>
+                    <div class="left-menu">
+                        <div class="left-menu-title">О нас</div>
+                        <ul>
+                            <li><a href="#">Вакансии</a></li>
+                            <li><a href="#">Обратная связь/Контакты</a></li>
+                            <li><a href="#">Документы</a></li>
+                            <li>Возврат средств</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="catalog-container no-border" id="catalog-container">
+                <div class="catalog-container" id="catalog-container">
                     <div class="search-catalog">
                         <div class="search-catalog-block">
                             <input type="text" value="" placeholder="Поиск моделей: например, стул ротанг" />
@@ -130,104 +140,28 @@
                         </div>
                         <div class="clearfix"></div>
                     </div>
-                    <div class="catalog-detail-block">
-                        <div class="news-detail-block">
-                            <h1>CG port является одним из мировых лидеров в  3d моделировании</h1>
-                            <div class="news-date">20 янв 2015</div>
-                            <img src="images/news_anons.png" alt="" class="news-anons">
+                    <div class="catalog-items">
+                        <div class="news-detail-block pseudo-fixed-width block-center">
+                            <h1>Возврат</h1>
                             <p>Ширина: 40cm x глубина 39cm x высота 75cm. With the Uncino collection we continue our collaboration with Mattiazzi and the idea of sculpting wood both handcrafted and with numerically controlled milling machines. We conceived a family of wooden task chairs with two different backrests and a (four star) swivel base.</p>
 
                             <p>The gently ссылка в тексте wooden pieces are held in place by bent metal rods – while wood remains the main actor, the metal parts play a fundamental role in the construction. The metal посещенная ссылка в тексте structure joins the pieces of wood in an almost organic overlap. The wood embraces the metal rods whose form subtlety appears on the wooden surface like a prominence.</p>
 
-                            The metal structure joins the pieces of wood in an almost organic overlap. The wood embraces the metal rods whose form subtlety appears on the wooden surface like
-                            a prominence. 
-                            </p>
-                            <h2>Заголовок второго уровня в тексте</h2>
-                            <h3>Заголовок третьего уровня в тексте</h3>
                             <p>With the Uncino collection we continue our collaboration with Mattiazzi and the idea of sculpting wood both handcrafted and with numerically controlled milling machines. We conceived a family of wooden task chairs with two different backrests and a (four star) swivel base.</p>
                             <p>
                             The gently <a href="#">ссылка в тексте</a> wooden pieces are held in place by bent metal rods – while wood remains the main actor, the metal parts play a fundamental role in the construction. The metal посещенная ссылка в тексте structure joins the pieces of wood in an almost organic overlap. The wood embraces the metal rods whose form subtlety appears on the wooden surface like a prominence. </p>
-                            <p>ИЗОБРАЖЕНИЕ В ТЕКСТЕ</p>
-                            <img src="images/news_detail.png" alt="">
-                            <ul>
-                                <li>With the Uncino collection we continue our collaboration with. </li>
-                                <li>The gently ссылка в тексте wooden pieces are held in place by bent metal rods – while wood remains the main actor, the metal parts play a fundamental role in the construction.</li>
-                                <li>We conceived a family of wooden task chairs with two different backrests and a (four star) swivel base. </li>
-                            </ul>
-                            <ol>
-                                <li>The gently ссылка в тексте wooden pieces are held in place by bent metal rods – while wood remains the main actor, the metal parts play a fundamental role in the construction.</li>
-                                <li>The metal посещенная ссылка в тексте structure joins the pieces of wood in an almost organic overlap. 
-                                </li>
-                                <li>The wood embraces the metal rods whose form subtlety appears on the wooden surface like a prominence.</li>
-                            </ol>
-                            <div class="detail-action news-action">
-                                <div class="action-print-big show_title action-block" data-hasqtip="4" oldtitle="Распечатать" title=""></div>
-                                <div class="action-share show_title action-block" data-hasqtip="5" oldtitle="Поделиться" title="">
-                                    <div class="share-block">
-                                        <div class="share-block-border">
-                                            <div class="share-item share-facebook"><a href="#" class="show_title" data-hasqtip="6" oldtitle="Facebook" title="">5</a></div>
-                                            <div class="share-item share-twitter"><a href="#" class="show_title" data-hasqtip="7" oldtitle="Twitter" title="">18</a></div>
-                                            <div class="share-item share-pinit"><a href="#" class="show_title" data-hasqtip="8" oldtitle="PunIt" title="">&nbsp;</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
                         </div>
-                        <div class="news-additional block-center">
-                            <div class="news-additional-title">Еще новости:</div>
-                            <img src="images/devider.png" alt="">
-                        </div>
-                        <div class="news-container news-container-detail">
-                            <div class="row">
-                                <div class="news-item">
-                                    <a href="#">
-                                        <img src="images/news-item.jpg" alt="" />
-                                        <span class="news-item-bottom">
-                                            <span>Вышла бета-версия движка Unity 5.0</span>
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="news-item">
-                                    <a href="#">
-                                        <img src="images/news-item2.jpg" alt="">
-                                        <span class="news-item-bottom">
-                                            <span>Введение в дизайн и анализ на примере технических устройств</span>
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="news-item">
-                                    <a href="#">
-                                        <img src="images/news-item3.jpg" alt="">
-                                        <span class="news-item-bottom">
-                                            <span>Вышла бета-версия движка Unity 5.0</span>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="banner-middle-container">
-                    <div class="banner-middle banner-middle-left">
-                        <a href="#">
-                            <img src="images/banner_left.jpg" alt="" class="banner-left-one">
-                            <img src="images/banner_left_2.jpg" alt="" class="banner-left-two">
-                        </a>
-                    </div>
-                    <div class="banner-middle banner-middle-right">
-                        <a href="#">
-                            <img src="images/banner_right.png" alt="" class="banner-right-one">
-                            <img src="images/banner_right_2.png" alt="" class="banner-right-two">
-                        </a>
                     </div>
                 </div>
                 <div class="clearfix"></div>
+                <div class="footer-feedback">
+                    <a href="#"><span>Обратная связь</span></a>
+                </div>
             </div>
-			<div class="buffer"></div>
-		</div>
-		<div class="footer">
-			<div class="footer-inner">
+            <div class="buffer"></div>
+        </div>
+        <div class="footer">
+            <div class="footer-inner">
                 <div class="footer-item">
                     <p>
                     © 2014 — 2015 ООО «Сиджипорт»<br />
@@ -286,9 +220,68 @@
                         <a href="#" class="icon-item2"></a>
                         <a href="#" class="icon-item1"></a>
                     </div>
-                    <div class="madein">Создание сайта:<a href="#"><img src="images/madein.png" alt=""></a></div>
+                    <div class="madein">Создание сайта:<a href="#"><img src="../images/madein.png" alt=""></a></div>
                 </div>
             </div>
-		</div>
+        </div>
+        <div class="login hidden">
+            <div id="login">
+                <div class="modal-block">
+                    <div class="form-container login-container">
+                        <h2 class="simple">Войти</h2>
+                        <form>
+                            <div class="row">
+                                <label>Ваша электронная почта</label>
+                                <input type="text" placeholder="Например, ilya@mail.ru">
+                            </div>
+                            <div class="row">
+                                <label>Пароль</label>
+                                <input type="password">
+                            </div>
+                            <div class="row block">
+                                <div class="row-left">
+                                    <input type="checkbox" id="check1" class="checkbox">
+                                    <label for="check1" class="normal">Запомнить</label>
+                                </div>
+                                <div class="row-left link-remember">
+                                    <a href="#">Напомнить пароль</a>
+                                </div>
+                            </div>
+                            <div class="row block-center">
+                                <input type="submit" value="Войти">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form-container registration">
+                        <h2 class="simple">Бесплатная регистрация:</h2>
+                        <form>
+                            <div class="row">
+                                <label>Ваше имя</label>
+                                <input type="text" placeholder="Например, Илья" />
+                            </div>
+                            <div class="row">
+                                <label>Ваша электронная почта</label>
+                                <input type="text" placeholder="Например, ilya@mail.ru" />
+                            </div>
+                            <div class="row">
+                                <label>Пароль</label>
+                                <input type="password">
+                            </div>
+                            <div class="row">
+                                <input type="checkbox" id="check3" class="checkbox">
+                                <label for="check3" class="normal">Подписаться на рассылку новостей</label>
+                            </div>
+                            <div class="row">
+                                <input type="checkbox" id="check4" class="checkbox">
+                                <label for="check4" class="normal">Согласие на отправку личных данных и соглашение</label>
+                            </div>
+                            <div class="row block-center">
+                                <input type="submit" class="blue" value="Зарегистрироваться" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

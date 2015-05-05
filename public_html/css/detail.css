@@ -489,8 +489,9 @@
 	overflow: hidden;
 	font-family: "Pt Sans";
 }
-.form-container.fixed-width {
+.fixed-width {
 	width: 1020px;
+	margin: 0 auto;
 }
 .form-container h1 {
 	margin-bottom: 35px;
@@ -1266,4 +1267,257 @@ textarea.form:focus + .comment-add-submit {
 .modal-block .form-container {
 	margin-bottom: 0;
 	margin-top: 40px;
+}
+.about-photo-item {
+	float: left;
+	width: 33.33%;
+	box-sizing: border-box;
+	padding-right: 50px;
+	text-align: center;
+	font-size: 18px;
+	padding-bottom: 40px;
+}
+.pseudo-fixed-width {
+	width: 80%;
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.text-description {
+	font-size: 0.938em;
+	color: rgb(184,184,184);
+	text-align: center;
+}
+.job-manager {
+	height: 310px;
+}
+.job-manager .manager-image {
+	float: left;
+	width: 300px;
+	margin-top: 40px;
+}
+.job-manager .manager-image img {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+.job-manager .manager-description {
+	padding-left: 350px;
+	padding-top: 90px;
+}
+.job-manager .manager-name {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	display: block;
+}
+.job-manager .manager-work {
+	opacity: .4;
+	filter: alpha(opacity=40);
+	display: block;
+	margin-top: 10px;
+ }
+.job-manager .manager-contact {
+ 	padding-top: 20px;
+ }
+.job-manager .manager-phone {
+ 	display: block;
+ 	padding-left: 26px;
+ 	background: url(../images/icon_phone.png) left center no-repeat;
+}
+.job-manager .manager-email {
+	display: block;
+	padding-left: 26px;
+	background: url(../images/icon_email.png) left center no-repeat;
+}
+.job-list {
+	margin-top: 60px;
+}
+.job-list .job-item {
+	padding: 20px;
+	position: relative;
+}
+.job-list .job-item:nth-child(odd) {
+	background: rgb(241,241,241);
+}
+.job-list .job-title {
+	font-weight: 700;
+	display: block;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-left: 30px;
+	background: url(../images/icon_job_title.png) left -248px no-repeat;
+}
+.job-list .job-title-opened {
+	background: url(../images/icon_job_title.png) left 4px no-repeat;
+}
+.job-list .job-cache {
+	font-size: 16px;
+	display: block;
+	padding-left: 30px;
+
+}
+.job-list .job-description {
+	padding-left: 30px;
+}
+.job-list .job-description-title {
+	display: block;
+	text-transform: uppercase;
+	opacity: .5;
+	filter: alpha(opacity=50);
+	margin-top: 20px;
+}
+.job-list .job-button {
+	position: absolute;
+	right: 40px;
+	top: 20px;
+	display: block;
+	width: 180px;
+	height: 35px;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: center;
+	line-height: 35px;
+	text-decoration: none;
+	border: 2px solid #000;
+	color: #000;
+}
+.job-list .job-button:hover {
+	color: #fff;
+	background: #000;
+}
+.table {
+	width: 100%;
+}
+.table tr:nth-child(odd) {
+	width: 100%;
+	background-color: rgb(241,241,241);
+}
+.table td {
+	padding: 30px 20px;
+	vertical-align: middle;
+}
+.text-block {
+	font-family: "Pt Sans";
+	line-height: 1.500em;
+}
+.table tr:nth-child(odd) .action {
+	border: 1px solid rgb(241,241,241);
+}
+.documents a {
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+.documents a:hover {
+	text-decoration: none;
+}
+.contact-map img {
+	width: 100%;
+	height: auto;
+}
+.contact-row {
+	padding: 1em;
+	overflow: hidden;
+}
+.contact-row .contact-item {
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	height: auto;
+}
+.contact-item .contact-title {
+	display: block;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+.contact-data {
+	color: rgb(153,153,153);
+	margin-top: 20px;
+}
+.contact-data .contact-data-title {
+	text-transform: uppercase;
+	display: block;
+	color: #000;
+}
+.letter-block {
+	margin-top: 120px;
+}
+.letter-block .letter-title {
+	font-family: "Kelson Sans";
+	font-size: 27px;
+	text-transform: uppercase;
+	padding-top: 50px;
+}
+.letter-block .letter-subtitle {
+	font-family: "Kelson Sans Light";
+	font-size: 27px;
+	padding-top: 20px;
+}
+.letter-block .letter-anchor {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.letter-block .letter-submit {
+	padding-top: 40px;
+}
+.letter-email .header-line {
+	height: 105px;
+	text-align: center;
+}
+.letter-email .logo {
+	padding-top: 30px;
+}
+.letter-email .logo img {
+	vertical-align: middle;
+	padding-right: 34px;
+	border-right: 1px solid rgb(67,246,234);
+}
+.letter-email .header-slogan {
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-left: 46px;
+	line-height: 1.500em;
+	vertical-align: middle;
+	text-align: left;
+}
+.letter-email .header-slogan-sub {
+	color: rgb(54,255,255);
+	text-transform: none;
+	font-style: italic;
+}
+.letter-email .banner-middle-container {
+	padding-top: 40px;
+}
+.letter-email .banner-middle-container .banner-middle {
+	width: 90%;
+	margin: 0 auto;
+	float: none;
+}
+.letter-email .news-container .news-item {
+	width: 50%;
+}
+.letter-email .news-container .news-item img {
+	width: 100%;
+	height: auto;
+}
+.letter-email .news-container {
+	padding-bottom: 50px;
+	width: 90%;
+	max-width: 90%;
+	min-width: 90%;
+}
+.letter-email .footer {
+	height: 150px;
+}
+.letter-email .footer-inner {
+	padding-top: 20px;
+}
+.letter-email .letter-no {
+	float: left;
+	color: #fff;
+	line-height: 36px;
+	padding: 0 10px;
+	background: rgb(64,64,64);
 }

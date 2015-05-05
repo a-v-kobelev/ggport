@@ -1419,7 +1419,7 @@ span.icon-next {
 .collage .collage-content {
 	border: 2px solid rgb(214,214,214);
 	margin-top: 20px;
-	height: 1000px;
+	height: auto;
 }
 .collage .collage-left {
 	float: left;
@@ -2018,4 +2018,14 @@ span.icon-next {
 .collage .collage-help-big-image-2 {
 	position: absolute;
 	right: 6px;
+}
+.block-title {
+	display: block;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: rgb(153,153,153);
+	margin-left: 6px;
+}
+.icon_404 {
+	padding-top: 50px;
 }

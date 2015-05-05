@@ -202,6 +202,9 @@
 	height: 210px;
 	background-color: rgb(59,59,59);
 }
+.footer-line-grey.nomargin {
+	margin-top: 0;
+}
 .footer-feedback {
 	margin-top: 50px;
 	height: 75px;
