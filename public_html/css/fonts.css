@@ -23,6 +23,13 @@
          url('fonts/PTS75F-webfont.ttf') format('truetype');
 }
 @font-face {
+    font-family: 'Pt Sans Italic';
+    src: url('fonts/PTSansItalic.eot');
+    src: url('fonts/PTSansItalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PTSansItalic.woff') format('woff'),
+         url('fonts/PTSansItalic.ttf') format('truetype');
+}
+@font-face {
     font-family: 'Kelson Sans';
     src: url('fonts/KelsonSansRegular.eot');
     src: url('fonts/KelsonSansRegular.eot?#iefix') format('embedded-opentype'),

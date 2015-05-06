@@ -87,9 +87,6 @@
     font-family: "Kelson Sans Bold";
     font-size: 2.500em;
   }
-  .header-slider .slide-block .slider-button {
-    top: 260px !important;
-  }
 }
 @media screen and (min-width: 1200px) and (max-width: 1350px) {
   .header-slider .slide-block .slider-text {

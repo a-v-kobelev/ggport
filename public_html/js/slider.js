@@ -196,7 +196,7 @@ $(function(){
 	});
 	$('.show_title_html').qtip({
 		position: {
-			my: 'bottom center',
+			my: 'bottom left',
 	        at: 'top center'
     	},
     	content: {

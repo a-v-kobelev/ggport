@@ -172,7 +172,7 @@
 	letter-spacing: 1px;
 }
 .project-list li .project-item .project-item-count {
-	color: rgb(216,216,216);
+	color: rgb(153,153,153);
 }
 .project-list li .project-item .project-block-right {
 	position: absolute;
@@ -278,10 +278,10 @@
 .search-catalog button:hover {
 	background: rgb(67,246,176) url(../images/icon_search.png) -60px center no-repeat;
 }
-.search-catalog ::-webkit-input-placeholder { font-family: "Pt Sans"; font-style: italic; color: #000; opacity: .25; filter: alpha(opacity=25); }
-.search-catalog ::-moz-placeholder          { font-family: "Pt Sans"; font-style: italic; color: #000; opacity: .25; filter: alpha(opacity=25); }/* Firefox 19+ */
-.search-catalog ::-moz-placeholder           { font-family: "Pt Sans"; font-style: italic; color: #000; opacity: .25; filter: alpha(opacity=25); }/* Firefox 18- */
-.search-catalog ::-ms-input-placeholder      { font-family: "Pt Sans"; font-style: italic; color: #000; opacity: .25; filter: alpha(opacity=25); }
+.search-catalog ::-webkit-input-placeholder { font-family: "Pt Sans Italic"; font-size: 18px; color: #000; opacity: .25; filter: alpha(opacity=25); }
+.search-catalog ::-moz-placeholder          { font-family: "Pt Sans Italic"; font-size: 18px; color: #000; opacity: .25; filter: alpha(opacity=25); }/* Firefox 19+ */
+.search-catalog ::-moz-placeholder           { font-family: "Pt Sans Italic"; font-size: 18px; color: #000; opacity: .25; filter: alpha(opacity=25); }/* Firefox 18- */
+.search-catalog ::-ms-input-placeholder      { font-family: "Pt Sans Italic"; font-size: 18px; color: #000; opacity: .25; filter: alpha(opacity=25); }
 
 .icon {
 	width: 17px;
@@ -768,9 +768,9 @@ span.icon-next {
 }
 .overview .overview-comment {
 	float: right;
-	background: url(../images/icon_overview_comment.png) left bottom no-repeat;
+	background: url(../images/icon_overview_comment_grey.png) left bottom no-repeat;
 	padding-left: 16px;
-	color: rgb(42,149,244);
+	color: rgb(153,153,153);
 	margin-right: 14px;
 	margin-top: 12px;
 	z-index: 300;
@@ -779,14 +779,23 @@ span.icon-next {
 }
 .overview .overview-download {
 	float: right;
-	background: url(../images/icon_overview_download.png) left bottom no-repeat;
+	background: url(../images/icon_overview_comment_grey.png) -35px bottom no-repeat;
 	padding-left: 16px;
-	color: rgb(42,149,244);
+	color: rgb(153,153,153);
 	margin-right: 14px;
 	margin-top: 12px;
 	z-index: 300;
 	height: 14px;
 	line-height: 14px;
+}
+.overview .overview-comment:hover {
+	background: url(../images/icon_overview_comment.png) left bottom no-repeat;
+}
+.overview .overview-download:hover {
+	background: url(../images/icon_overview_download.png) left bottom no-repeat;
+}
+.overview .overview-comment:hover, .overview .overview-download:hover {
+	color: rgb(42,149,244);
 }
 .overview .overview-add {
 	position: absolute;
@@ -2028,4 +2037,7 @@ span.icon-next {
 }
 .icon_404 {
 	padding-top: 50px;
+}
+.title-html, .title-html a {
+	line-height: 18px;
 }
