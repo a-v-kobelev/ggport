@@ -205,7 +205,7 @@
   position: relative;
   border: 1px solid #fff;
 }
-.model-container li a .model-descr {
+.model-descr {
   display: none;
   width: 168px;
   height: 168px;
