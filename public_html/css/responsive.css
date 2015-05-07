@@ -144,4 +144,18 @@
     width: 420px;
     margin-left: 350px;
   }
+  .collage-help .project-list {
+    width: auto;
+    margin-left: 0; 
+  }
+}
+@media screen and (max-width: 1540px) {
+  .collage .collage-help-big-image {
+    top: 300px;
+  }
+}
+@media screen and (max-width: 1370px) {
+  .collage .collage-help-big-image {
+    top: 350px;
+  }
 }

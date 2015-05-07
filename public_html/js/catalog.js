@@ -11,7 +11,7 @@ $(function(){
 			if(top.length > 0) {
 	        	if(scrollData.direction === "down") {
 	        		if(scrollData.scrollPercent > 5) {
-	        			top.css("height", "20px");
+	        			top.css("height", "30px");
 	        		}
 	        		if(scrollData.scrollPercent === 100) {
 	        			bottom.css("height", "0px");
@@ -23,7 +23,7 @@ $(function(){
 	        		}
 	        	}
 	        	if(scrollData.scrollPercent < 100) {
-        			bottom.css("height", "20px");
+        			bottom.css("height", "30px");
         		}
         	}
       }

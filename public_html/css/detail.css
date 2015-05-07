@@ -589,6 +589,9 @@
 .catalog-detail-block .form-container .form-container-right.tarif-right {
 	margin-top: 534px;
 }
+.catalog-detail-block .form-container .form-container-right.tarif-right-nobanner {
+	margin-top: 464px;
+}
 .catalog-detail-block .form-container {
 	margin-bottom: 60px;
 }
@@ -642,18 +645,12 @@
 	height: 34px;
 	left: -15px;
 	content: url(../images/icon_form_right.png);
-	opacity: .60;
-	filter: alpha(opacity=60);
 }
 .form-container .form-container-right-item.second:before {
 	content: url(../images/icon_form_right_www.png);
-	opacity: .40;
-	filter: alpha(opacity=40);
 }
 .form-container .form-container-right-item.third:before {
 	content: url(../images/icon_form_right_clock.png);
-	opacity: .40;
-	filter: alpha(opacity=40);
 }
 .form-container .form-container-right-item.profile:before {
 	content: url(../images/icon_profile_right.png);
@@ -1142,6 +1139,14 @@ textarea.form:focus + .comment-add-submit {
 	font-family: "Roboto Condensed Light";
 	padding-left: 30px;
 }
+.tarif-block .tarif-list-cost .heard {
+	position: absolute;
+	top: 20px;
+	left: -100px;
+	width: 35px;
+	height: 30px;
+	background: url(../images/heard.png) center center no-repeat;
+}
 .tarif-block .tarif-list .tarif-list-cost .tarif-old {
 	font-size: 16px;
 	font-family: "Roboto Condensed Light";
@@ -1305,6 +1310,9 @@ textarea.form:focus + .comment-add-submit {
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
+}
+.modal-block-fixed {
+	max-width: 1200px;
 }
 .login-container, .registration  {
 	float: left;

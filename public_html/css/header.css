@@ -181,7 +181,6 @@
 }
 .header-info {
 	float: right;
-	padding-right: 15%;
 	padding-top: 44px;
 }
 .header-info a {
@@ -195,6 +194,9 @@
 	margin-right: 20px;
 	font-family: "Pt Sans";
 	font-size: 0.875em;
+}
+.header-info a:last-child {
+	margin-right: 0;
 }
 .header-info .header-info-count {
 	background-position: left -23px;

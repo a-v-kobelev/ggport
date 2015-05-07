@@ -278,10 +278,10 @@
 .search-catalog button:hover {
 	background: rgb(67,246,176) url(../images/icon_search.png) -60px center no-repeat;
 }
-.search-catalog ::-webkit-input-placeholder { font-family: "Pt Sans Italic"; font-size: 18px; color: #000; opacity: .25; filter: alpha(opacity=25); }
-.search-catalog ::-moz-placeholder          { font-family: "Pt Sans Italic"; font-size: 18px; color: #000; opacity: .25; filter: alpha(opacity=25); }/* Firefox 19+ */
-.search-catalog ::-moz-placeholder           { font-family: "Pt Sans Italic"; font-size: 18px; color: #000; opacity: .25; filter: alpha(opacity=25); }/* Firefox 18- */
-.search-catalog ::-ms-input-placeholder      { font-family: "Pt Sans Italic"; font-size: 18px; color: #000; opacity: .25; filter: alpha(opacity=25); }
+.search-catalog ::-webkit-input-placeholder { font-family: "Pt Sans Italic"; font-size: 18px; color: #000; opacity: .50; filter: alpha(opacity=25); }
+.search-catalog ::-moz-placeholder          { font-family: "Pt Sans Italic"; font-size: 18px; color: #000; opacity: .50; filter: alpha(opacity=25); }/* Firefox 19+ */
+.search-catalog ::-moz-placeholder           { font-family: "Pt Sans Italic"; font-size: 18px; color: #000; opacity: .50; filter: alpha(opacity=25); }/* Firefox 18- */
+.search-catalog ::-ms-input-placeholder      { font-family: "Pt Sans Italic"; font-size: 18px; color: #000; opacity: .50; filter: alpha(opacity=25); }
 
 .icon {
 	width: 17px;
@@ -307,7 +307,7 @@
 	top: 0px;
 	left: 0;
 	width: 100%;
-	background: url(../images/bg_filter_params_top.png) left top repeat-x;
+	background: transparent url(../images/bg_filter_params_top2.png) left top repeat-x;
 	z-index: 200;
 }
 .filter-menu-category-bottom {
@@ -316,7 +316,7 @@
 	bottom: 0px;
 	left: 0;
 	width: 100%;
-	background: url(../images/bg_filter_params_bottom.png) left bottom repeat-x;
+	background: url(../images/bg_filter_params_bottom2.png) left bottom repeat-x;
 	z-index: 200;
 }
 .filter-menu-category li a {
@@ -1383,7 +1383,6 @@ span.icon-next {
 
 .collage .collage-title {
 	font-size: 14px;
-	font-weight: bold;
 	color: #000;
 	opacity: .4;
 	filter: alpha(opacity=40);
@@ -1392,6 +1391,7 @@ span.icon-next {
 	top: 0;
 	width: 380px;
 	line-height: 18px;
+	letter-spacing: 1px;
 }
 .collage .collage-title a {
 	color: #000;
@@ -1428,12 +1428,12 @@ span.icon-next {
 .collage .collage-content {
 	border: 2px solid rgb(214,214,214);
 	margin-top: 20px;
-	height: auto;
+	height: 700px;
 }
 .collage .collage-left {
 	float: left;
 	width: 300px;
-	height: 500px;
+	height: 700px;
 	box-sizing: border-box;
 	padding: 6px;
 	border-right: 1px solid rgb(214,214,214);
@@ -1450,7 +1450,7 @@ span.icon-next {
 	
 }
 .collage .collage-image {
-	height: 500px;
+	height: 700px;
 }
 .collage .collage-image ul {
 	overflow: hidden;
@@ -1476,7 +1476,7 @@ span.icon-next {
 .collage .main-image {
 	position: absolute;
 	top: 30px;
-	right: 350px;
+	left: 50%;
 	overflow: hidden;
 }
 .collage .model-item span {
@@ -1529,7 +1529,7 @@ span.icon-next {
 	text-align: center;
 	box-sizing: border-box;
 	border: 2px solid rgb(67,246,234);
-	color: rgb(102,102,102);
+	color: #000;
 	font-size: 10px;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -1592,6 +1592,7 @@ span.icon-next {
 	font-family: "Pt Sans";
 	font-size: 13px;
 	color: rgb(22,136,237);
+	letter-spacing: 1px;
 }
 .collage .collage-save {
 	position: absolute;
@@ -1844,8 +1845,7 @@ span.icon-next {
 .collage.collage-auth .project-list-title {
 	position: absolute;
 	left: 0;
-	font-family: "Pt Sans";
-	font-weight: bold;
+	font-family: "Pt Sans Bold";
 	text-transform: uppercase;
 	font-size: 16px;
 	top: 18px;
@@ -1859,6 +1859,7 @@ span.icon-next {
 .collage .registration.form-container label.block-left {
 	text-align: left;
 	font-size: 12px;
+	line-height: 18px;
 }
 .collage .advantages {
 	padding-top: 20px;
@@ -1934,9 +1935,8 @@ span.icon-next {
 	border: 2px solid rgb(72,163,244);
 	text-transform: uppercase;
 	text-decoration: none;
-	font-family: "Pt Sans";
+	font-family: "Pt Sans Bold";
 	font-size: 17px;
-	font-weight: 700;
 	line-height: 24px;
 	padding: 8px 0 2px 10px;
 	transition: none;
@@ -1947,16 +1947,20 @@ span.icon-next {
 	background-position: -120px center;
 }
 .collage .collage-help-left {
-	width: 870px;
+	width: 55%;
 	float: left;
 	padding-top: 30px;
 	padding-left: 10px;
+	box-sizing: border-box;
+	position: relative;
 }
 .collage .collage-help-right {
-	width: 360px;
+	width: 45%;
 	float: left;
 	padding-top: 30px;
 	padding-right: 20px;
+	padding-left: 80px;
+	box-sizing: border-box;
 }
 .collage .collage-help-item {
 	position: relative;
@@ -1970,7 +1974,7 @@ span.icon-next {
 	padding-left: 82px;
 }
 .collage .collage-help-first {
-	width: 345px;
+	width: 50%;
 }
 .collage .collage-help-first:before {
 	content: url(../images/icon_help_1.png);
@@ -1984,13 +1988,14 @@ span.icon-next {
 	font-size: 17px;
 	line-height: 24px;
 	color: rgb(162,162,162);
-	width: 200px;
 	z-index: 20;
 	position: relative;
 }
+.collage .collage-help-item.collage-help-third img {
+	width: 100%;
+}
 .collage .collage-help-second {
-	width: 345px;
-	margin-left: 84px;
+	width: 50%;
 }
 .collage .collage-help-second:before {
 	content: url(../images/icon_help_2.png);
@@ -2000,10 +2005,14 @@ span.icon-next {
 }
 .collage  .collage-help-big-image {
 	position: absolute;
-	top: 310px;
+	top: 220px;
+	width: 100%;
 }
-.collage .collage-help-second .collage-help-text {
-	width: 370px;
+.collage  .collage-help-big-image img {
+	width: 100%;
+}
+.collage .collage-help-first .collage-help-text {
+	width: 200px;
 }
 .collage .collage-help-third {
 	float: none;
@@ -2017,6 +2026,7 @@ span.icon-next {
 .collage .collage-help-forth {
 	float: none;
 	padding-top: 20px;
+	position: relative;
 }
 .collage .collage-help-forth:before {
 	content: url(../images/icon_help_4.png);
@@ -2040,4 +2050,51 @@ span.icon-next {
 }
 .title-html, .title-html a {
 	line-height: 18px;
+}
+.collage.collage-help-1024 {
+	width: 1024px;
+}
+.collage.collage-help-1024 .collage-help-item .collage-help-title {
+	font-size: 19px;
+	line-height: 30px;
+	padding-left: 60px;
+}
+.collage.collage-help-1024 .collage-help-item .collage-help-text {
+	font-size: 15px;
+	padding-left: 60px;
+}
+.collage.collage-help-1024 .collage-help-right {
+	padding-left: 30px;
+}
+.collage.collage-help-1024 .collage-help-first .collage-help-text {
+	width: 150px;
+}
+.collage.collage-help-1024 .collage-help-left {
+	width: 60%;
+}
+.collage.collage-help-1024 .collage-help-right {
+	width: 40%;
+}
+.collage.collage-help-1024 .collage-help-big-image {
+	top: 200px;
+}
+.collage.collage-help-1024 .collage-help-item.collage-help-third img {
+	width: auto;
+	margin-left: -40px;
+}
+.collage.collage-help-1024 .collage-help-first:before {
+	content: url(../images/icon_help_1_1.png)
+}
+.collage.collage-help-1024 .collage-help-second:before {
+	content: url(../images/icon_help_2_1.png)
+}
+.collage.collage-help-1024 .collage-help-third:before {
+	content: url(../images/icon_help_3_1.png)
+}
+.collage.collage-help-1024 .collage-help-forth:before {
+	content: url(../images/icon_help_4_1.png);
+	top: 26px;
+}
+.collage.collage-help-1024 .collage-help-big-image-2 {
+	top: 220px;
 }

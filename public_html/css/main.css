@@ -209,3 +209,6 @@ blockquote:after {
 	position: absolute;
 	left: 0;
 }
+.nohidden {
+	overflow: visible !important;
+}

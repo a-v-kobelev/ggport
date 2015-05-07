@@ -71,6 +71,7 @@
 
 .scrollable.default-skin .scroll-bar .thumb {
   background: url(../images/bg_scroll.png) center center no-repeat;
+  cursor: pointer;
 }
 
 .scrollable.default-skin .scroll-bar:hover .thumb {
