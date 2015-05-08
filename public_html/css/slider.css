@@ -184,13 +184,16 @@
   text-align: center;
   width: 140px;
 }
+.model-container {
+  position: relative;
+}
 .model-container ul {
+  position: relative;
   overflow: hidden;
   height: 170px;
   width: 100%;
-  min-width: 1000px;
   margin: 0 auto;
-  position: relative;
+  padding-right: 170px;
 }
 .model-container li {
   float: left;
@@ -240,6 +243,7 @@
   background: rgb(113,247,159);
   width: 170px;
   height: 170px;
+  margin-right: 0;
 }
 .model-container .model-all a {
   border: none;

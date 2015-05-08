@@ -28,4 +28,22 @@ $(function(){
         	}
       }
 	});
+	$("#detail-catalog-slider ul").owlCarousel({
+    	items : 5,
+    	responsive: false
+  	});
+
+	var owl = $(".detail-catalog-slider ul");
+   	owl.owlCarousel({
+    	items : 5,
+    	responsive: false
+  	});
+  	$(".detail-catalog-slider .next").click(function(event){
+	    owl.trigger('owl.next');
+	    event.preventDefault();
+	});
+	$(".detail-catalog-slider .prev").show().click(function(){
+	    owl.trigger('owl.prev');
+	    event.preventDefault();
+	});
 });

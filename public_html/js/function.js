@@ -62,14 +62,28 @@ function  getPageSize(){
 function showItem(obj) {
 	var size = getPageSize();
 	var model = $(obj);
+  if(model.length > 0) {
     var model_item = model.find("li");
-    var width_item = model_item.width() + 30;
+    var width_item = model_item.innerWidth();
     var show = Math.floor(size[0] / width_item);
     var current_width = width_item * show;
-    model.width(current_width);
+    model.css("width", current_width);
+  }
 }
 
 function showModelItem(obj) {
+  var size = getPageSize();
+  var model = $(obj);
+  if(model.length > 0) {
+    var model_item = model.find("li");
+    var width_item = model_item.innerWidth() + 30;
+    var show = Math.floor(size[0] / width_item - 1);
+    var current_width = Math.floor((width_item * (show - 1)) + 40);
+    model.css("width", current_width);
+  }
+}
+
+function showCatalogItem(obj) {
   var container = $(obj);
   var size = container.width();
   var model_item = container.find("li");
