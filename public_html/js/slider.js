@@ -148,6 +148,7 @@ $(function(){
 	showModelItem(".model-container ul");
 	showItem(".model-list-block ul");
 	showCatalogItem(".catalog-block ul");
+	SetHeightFilter();
 
 	$(".filter-item-parent-noscroll").click(function(event){
 		var items = $(".filter-item-parent").not(this);
@@ -210,15 +211,8 @@ $(function(){
 		var container = $("#filter-container");
 		container.toggleClass("filter-container-close");
 		$("#catalog-container").toggleClass("catalog-container-full");
-		showModelItem(".catalog-block ul");
-		var height = $(".catalog-items").innerHeight();
-		console.log(height);
-		if(container.hasClass("filter-container-close")) {
-			container.find(".filter-params-content-close").css("height", height);
-		}
-		else {
-			container.find(".filter-params-content-close").css("height", "0px");
-		}
+		showCatalogItem(".catalog-block ul");
+		SetHeightFilter();
 		event.preventDefault();
 	});
 

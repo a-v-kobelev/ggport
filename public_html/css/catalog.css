@@ -993,6 +993,10 @@ span.icon-next {
 	max-height: 116px;
 	float: left;
 	margin-right: 10px;
+	border: 1px solid #fff;
+}
+.personal-comment .personal-comment-item img:hover {
+	border: 1px solid #000;
 }
 .personal-comment .personal-comment-item .model-name {
 	padding-top: 8px;
@@ -1895,7 +1899,7 @@ span.icon-next {
 }
 .collage.collage-add .project-add-description {
 	position: absolute;
-	top: 74px;
+	top: 154px;
 	left: 530px;
 	width: 220px;
 	font-family: "Pt Sans";
@@ -1917,7 +1921,7 @@ span.icon-next {
 	font-family: "Roboto Condensed";
 	font-weight: 700;
 	font-size: 36px;
-	margin-top: 0;
+	padding-top: 0;
 	letter-spacing: 1px;
 }
 .collage.collage-help .project-list {

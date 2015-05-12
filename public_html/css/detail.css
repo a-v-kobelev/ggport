@@ -389,8 +389,10 @@
 	filter: alpha(opacity=80);
 }
 .detail-comment-block .detail-comment-list a:hover {
+	text-decoration: none;
+}
+.detail-comment-block .detail-comment-list a.blue {
 	color: rgb(67,246, 234);
-	text-decoration: underline;
 }
 .detail-overview {
 	position: absolute;
@@ -457,6 +459,13 @@
 	margin: 0 auto;
 	text-align: center;
 	line-height: 1.500em;
+}
+.model-list-add .model-list-text a {
+	color: #000;
+	text-decoration: none;
+}
+.model-list-add .model-list-text a:hover {
+	text-decoration: underline;
 }
 .model-list-add .model-list-block {
 	margin: 70px 0;
@@ -948,32 +957,32 @@
 	border: 2px solid rgb(67,246, 234);
 	padding: 0 6px;
 	cursor: pointer;
-	opacity: .8;
-	filter: alpha(opacity=80);
+	opacity: .4;
+	filter: alpha(opacity=40);
 }
 .comment-edit {
 	padding: 0 12px;
 	margin-left: 6px;
 	cursor: pointer;
 	background: url(../images/icon_comment.png) center top no-repeat;
-	opacity: .8;
-	filter: alpha(opacity=80);
+	opacity: .4;
+	filter: alpha(opacity=40);
 }
 .comment-delete {
 	padding: 0 12px;
 	margin-left: 6px;
 	cursor: pointer;
 	background: url(../images/icon_comment.png) center -93px no-repeat;
-	opacity: .8;
-	filter: alpha(opacity=80);
+	opacity: .4;
+	filter: alpha(opacity=40);
 }
 .comment-attention {
 	padding: 0 12px;
 	margin-left: 6px;
 	cursor: pointer;
 	background: url(../images/icon_comment.png) center -49px no-repeat;
-	opacity: .8;
-	filter: alpha(opacity=80);
+	opacity: .4;
+	filter: alpha(opacity=40);
 }
 .comment-edit:hover, .comment-delete:hover, .comment-attention:hover, .comment-point:hover {
 	opacity: 1;
@@ -995,6 +1004,11 @@
 }
 .comment-all a {
 	color: #fff;
+}
+.comment-all a:hover {
+	opacity: .6;
+	filter: alpha(opacity=60);
+	text-decoration: underline;
 }
 .detail-comment-block .comment-add-block {
 	top: 130px;

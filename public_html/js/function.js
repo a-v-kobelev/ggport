@@ -92,3 +92,16 @@ function showCatalogItem(obj) {
   var marginRight = Math.floor((size - show * width_item) / show);
   model_item.css("margin-right", marginRight);
 }
+
+function SetHeightFilter() {
+  var height = $(".catalog-items").innerHeight();
+  var container = $("#filter-container");
+  var obj = container.find(".filter-params-content-close");
+  if(container.hasClass("filter-container-close")) {
+    obj.css("height", height);
+  }
+  else {
+    obj.css("height", "0px");
+    resizeAndScroll(".filter-menu-category-block-scroll");
+  }
+}

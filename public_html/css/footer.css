@@ -208,7 +208,6 @@
 .footer-feedback {
 	margin-top: 50px;
 	height: 75px;
-	background-color: rgb(91,91,91);
 }
 .footer-feedback a {
 	display: block;
@@ -221,9 +220,11 @@
 	font-size: 20px;
 	font-family: "Pt Sans Bold";
 	text-decoration: none;
+	background-color: rgb(91,91,91);
+	opacity: .9;
 }
 .footer-feedback a:hover {
-	background-color: rgb(71,71,71);
+	opacity: 1;
 }
 .footer-feedback.no-padding a {
 	padding-right: 0;

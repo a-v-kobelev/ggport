@@ -62,15 +62,15 @@
 .header-right {
 	position: relative;
 }
-.header-right .header-change-lang {
+.header-right .header-right-menu {
 	float: right;
   	margin-right: 30px;
   	margin-top: 16px;
 }
-.header-right .header-change-lang ul {
+.header-right .header-right-menu ul {
 	width: 130px;
 }
-.header-right .header-change-lang li {
+.header-right .header-right-menu li {
 	line-height: 65px;
 	position: relative;
 	padding-left: 30px;
@@ -80,28 +80,28 @@
   	line-height: 35px;
   	display: block;
 }
-.header-right .header-change-lang li.active {
+.header-right .header-right-menu li.active {
 	background: url(../images/icon_earth.png) 10px 9px no-repeat;
 	border-top: 1px solid rgb(47,50,51);
 	border-right: 1px solid rgb(47,50,51);
 	border-left: 1px solid rgb(47,50,51);
 	cursor: pointer;
 }
-.header-right .header-change-lang li.active:hover {
+.header-right .header-right-menu li.active:hover {
 	background: url(../images/icon_earth.png) 10px -36px no-repeat;
 }
-.header-right .header-change-lang li.active a {
+.header-right .header-right-menu li.active a {
 	padding-right: 26px;
 	padding-left: 10px;
 	background: url(../images/icon_arrow.png) right center no-repeat;
 }
-.header-right .header-change-lang li a {
+.header-right .header-right-menu li a {
 	color: #fff;
 	text-decoration: none;
 	font-family: "Pt Sans";
 	font-size: 0.875em;
 }
-.header-right .header-change-lang li ul {
+.header-right .header-right-menu li ul {
 	display: none;
 	position: absolute;
 	left: -1px;
@@ -119,13 +119,13 @@
 	height: auto;
 	z-index: 30;
 }
-.header-right .header-change-lang li.active ul li {
+.header-right .header-right-menu li.active ul li {
 	padding-left: 0;
 }
-.header-right .header-change-lang li.active ul li:hover {
+.header-right .header-right-menu li.active ul li:hover {
 	border: none;
 }
-.header-right .header-change-lang li.active ul li a {
+.header-right .header-right-menu li.active ul li a {
 	background: none;
 	line-height: 35px;
 	display: block;
@@ -133,26 +133,47 @@
 	width: 100%;
 	box-sizing: border-box;
 }
-.header-right .header-change-lang li.active ul li a:hover {
+.header-right .header-right-menu li.active ul li a:hover {
 	background: #fff;
 	color: #000;
 }
-.header-right .header-change-lang li:hover {
+.header-right .header-right-menu li:hover {
 	border-top: 1px solid #fff;
 	border-right: 1px solid #fff;
 	border-left: 1px solid #fff;
 }
-.header-right .header-change-lang li:hover ul {
+.header-right .header-right-menu li:hover ul {
 	display: block;
 }
-.header-right .header-change-lang .change-lang-select {
+.header-right .header-right-menu {
 	width: 130px;
 }
-.header-right .header-change-lang .change-lang-select .jq-selectbox__select-text {
+.header-right .header-right-menu.header-right-menu-wide {
+	margin-right: 0;
+	width: auto;
+}
+.header-right .header-right-menu.header-right-menu-wide ul {
+	width: auto;
+}
+.header-right .header-right-menu.header-right-menu-wide li ul {
+	width: 100%;
+}
+.header-right .header-right-menu.header-right-menu-wide li {
+	padding-left: 0;
+}
+.header-right .header-right-menu.header-right-menu-wide li.active ul li a {
+	padding-left: 10px;
+	white-space: nowrap;
+}
+.header-right .header-right-menu.header-right-menu-wide li.active {
+	background: none;
+	padding-right: 10px;
+}
+.header-right .header-right-menu.jq-selectbox__select-text {
 	background: url(../images/icon_earth.png) left center no-repeat;
 	padding-left: 30px;
 }
-.header-right .header-change-lang .change-lang-select .jq-selectbox__dropdown li {
+.header-right .header-right-menu.jq-selectbox__dropdown li {
 	padding-left: 40px;
 }
 .header-right .header-select-info {
