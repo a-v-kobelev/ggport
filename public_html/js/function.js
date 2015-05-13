@@ -64,7 +64,7 @@ function showItem(obj) {
 	var model = $(obj);
   if(model.length > 0) {
     var model_item = model.find("li");
-    var width_item = model_item.innerWidth();
+    var width_item = model_item.innerWidth() + 30;
     var show = Math.floor(size[0] / width_item);
     var current_width = width_item * show;
     model.css("width", current_width);
