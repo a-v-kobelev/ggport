@@ -230,6 +230,14 @@
 .header-info .header-info-time {
 	background-position: left -69px;
 }
+.header-info .header-info-register {
+	background: url(../images/icon_register_op.png) left center no-repeat;
+	padding-left: 14px;
+}
+.header-info .header-info-register:hover {
+	background: url(../images/icon_register.png) left center no-repeat;
+	text-decoration: underline;
+}
 .header-search {
 	height: 106px;
 	overflow: hidden;

@@ -70,6 +70,7 @@ b, strong {
     min-height: 100%;
     min-width: 1000px;
     margin: 0 auto -300px auto;
+    position: relative;
 }
 .content {
 	
@@ -101,8 +102,9 @@ b, strong {
 	color: rgb(42,149,244);
 	text-decoration: none;
 	letter-spacing: 1px;
-	font-weight: bold;
+	font-weight: 700;
 }
+
 .item-all a:hover {
 	background-color: rgb(42,149,244);
 	color: #fff;
@@ -211,4 +213,16 @@ blockquote:after {
 }
 .nohidden {
 	overflow: visible !important;
+}
+.top {
+	position: absolute;
+	right: 60px;
+	bottom: 350px;
+	width: 54px;
+	height: 54px;
+	box-sizing: border-box;
+	border: 2px solid rgb(42,149,244);
+	overflow: hidden;
+	text-indent: 100%;
+	background: url(../images/icon_arrow_up.png) center center no-repeat;
 }

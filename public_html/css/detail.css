@@ -1500,7 +1500,7 @@ textarea.form:focus + .comment-add-submit {
 	background: url(../images/icon_job_title.png) left -248px no-repeat;
 }
 .job-list .job-title-opened {
-	background: url(../images/icon_job_title.png) left 4px no-repeat;
+	background: url(../images/icon_job_title.png) left 2px no-repeat;
 }
 .job-list .job-cache {
 	font-size: 16px;

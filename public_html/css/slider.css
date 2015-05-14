@@ -1,9 +1,3 @@
-.header-slider {
-	position: relative;
-}
-.header-slider .slide-block {
-	float: left;
-}
 .header-slider .slide-block .slider-text {
   position: absolute;
   width: 100%;
@@ -37,8 +31,13 @@
   background-color: #fff;
   color: rgb(194,194,194);
 }
+.header-slider .slide {
+  display: block;
+  height: auto;
+}
 .header-slider .slide-block img {
 	width: 100%;
+  height: auto;
 }
 .header-slider .header-slider-two {
 	display: none;

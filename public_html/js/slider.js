@@ -1,11 +1,4 @@
 $(function(){
-	$("#slides a").mouseover(function(){
-		rotateImage($(this).children(".header-slider-one"), $(this).children(".header-slider-two"));
-	});
-	$("#slides a").mouseout(function(){
-		rotateImage($(this).children(".header-slider-two"), $(this).children(".header-slider-one"));
-	});
-
 	$(".banner-middle.banner-middle-left a").
 	mouseover(function(){
 		rotateImage($(this).children(".banner-left-one"), $(this).children(".banner-left-two"));
