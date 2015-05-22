@@ -11,6 +11,10 @@
 	line-height: 18px;
 	position: relative;
 	letter-spacing: 1px;
+	transition: none;
+	-webkit-transition: none;
+	-o-transition-property: none;
+	-moz-transition: none;
 }
 .filter-container .filter-params .navigation-return-back.single {
 	line-height: 54px;
@@ -167,6 +171,9 @@
 	border: 1px solid #fff;
 	border-radius: 50%;
 	transition: none;
+	-webkit-transition: none;
+	-o-transition-property: none;
+	-moz-transition: none;
 }
 .action:hover {
 	border: 1px solid rgb(74,164,246) !important;
@@ -257,7 +264,6 @@
 	margin: 40px 0;
 }
 .detail-comment-block {
-	height: 278px;
 	background-color: rgb(59,59,59);
 	padding: 60px 0 30px 0;
 	overflow: hidden;
@@ -295,6 +301,9 @@
 	text-indent: 100%;
 	overflow: hidden;
 	transition: none;
+	-webkit-transition: none;
+	-o-transition-property: none;
+	-moz-transition: none;
 }
 .detail-catalog-slider a.prev {
 	left: 0;
@@ -328,6 +337,9 @@
 	background-repeat: no-repeat;
 	background-position: left center;
 	transition: none;
+	-webkit-transition: none;
+	-o-transition-property: none;
+	-moz-transition: none;
 }
 .detail-photo .fancybox-close:hover {
 	background-position: -40px center;
@@ -337,7 +349,7 @@
 }
 .detail-photo .fancybox-next span, .detail-photo .fancybox-prev span {
 	background-image: url(../images/icon_arrow_slider.png);
-	width: 30;
+	width: 30px;
 	height: 62px;
 	background-repeat: no-repeat;
 	background-position: left -62px;
@@ -740,9 +752,9 @@
 	font-family: "Pt Sans";
 }
 .form-container input[type=text]::-webkit-input-placeholder, .form-container textarea::-webkit-input-placeholder { letter-spacing: 0; font-style: italic; color: #000; opacity: .30; filter: alpha(opacity=30); }
-.form-container input[type=text]::-moz-placeholder, .form-container textarea::-webkit-input-placeholder          { letter-spacing: 0; font-style: italic; color: #000; opacity: .30; filter: alpha(opacity=30); }/* Firefox 19+ */
-.form-container input[type=text]::-moz-placeholder, .form-container textarea::-webkit-input-placeholder           { letter-spacing: 0; font-style: italic; color: #000; opacity: .30; filter: alpha(opacity=30); }/* Firefox 18- */
-.form-container input[type=text]::-ms-input-placeholder, .form-container textarea::-webkit-input-placeholder      { letter-spacing: 0; font-style: italic; color: #000; opacity: .30; filter: alpha(opacity=30); }
+.form-container input[type=text]::-moz-placeholder, .form-container textarea::-moz-placeholder          { letter-spacing: 0; font-style: italic; color: #000; opacity: .30; filter: alpha(opacity=30); }/* Firefox 19+ */
+.form-container input[type=text]:-moz-placeholder, .form-container textarea:-moz-placeholder           { letter-spacing: 0; font-style: italic; color: #000; opacity: .30; filter: alpha(opacity=30); }/* Firefox 18- */
+.form-container input[type=text]::-ms-input-placeholder, .form-container textarea::-ms-input-placeholder      { letter-spacing: 0; font-style: italic; color: #000; opacity: .30; filter: alpha(opacity=30); }
 
 .form-container input.right {
 	border: 1px solid rgb(67,246,234);
@@ -1030,11 +1042,7 @@
 	width: 300px;
 }
 .comment-all {
-	position: absolute;
-	width: 150px;
-	bottom: 40px;
-	left: 50%;
-	margin-left: -75px;
+	padding: 30px 10px 0px;
 	text-align: center;
 }
 .comment-all a {

@@ -61,6 +61,9 @@
 	width: 216px;
 	background: rgb(241,241,241) url(../images/bg_filter_params_choice.png) 180px 22px no-repeat;
 	transition: none;
+	-webkit-transition: none;
+	-o-transition-property: none;
+	-moz-transition: none;
 	padding-left: 1.250em;
 	box-sizing: border-box;
 	text-decoration: none;
@@ -83,6 +86,9 @@
 	cursor: pointer;
 	margin-bottom: 8px;
 	transition: none;
+	-webkit-transition: none;
+	-o-transition-property: none;
+	-moz-transition: none;
 }
 .filter-container .filter-icon a.chair {
 	background-position: 8px 4px;
@@ -280,7 +286,7 @@
 }
 .search-catalog ::-webkit-input-placeholder { font-family: "Pt Sans Italic"; font-size: 18px; color: #000; opacity: .50; filter: alpha(opacity=25); }
 .search-catalog ::-moz-placeholder          { font-family: "Pt Sans Italic"; font-size: 18px; color: #000; opacity: .50; filter: alpha(opacity=25); }/* Firefox 19+ */
-.search-catalog ::-moz-placeholder           { font-family: "Pt Sans Italic"; font-size: 18px; color: #000; opacity: .50; filter: alpha(opacity=25); }/* Firefox 18- */
+.search-catalog :-moz-placeholder           { font-family: "Pt Sans Italic"; font-size: 18px; color: #000; opacity: .50; filter: alpha(opacity=25); }/* Firefox 18- */
 .search-catalog ::-ms-input-placeholder      { font-family: "Pt Sans Italic"; font-size: 18px; color: #000; opacity: .50; filter: alpha(opacity=25); }
 
 .icon {
@@ -838,6 +844,9 @@ span.icon-next {
 	text-decoration: none;
 	color: #000;
 	transition: none;
+	-webkit-transition: none;
+	--o-transition-property: none;
+	-moz-transition: none;
 }
 .pagination-block li a:hover {
 	border: 1px solid rgb(67,246,176);
@@ -1134,7 +1143,6 @@ span.icon-next {
 	font-family: "Pt Sans";
 }
 .help-block .help-descr {
-	width: ;
 	text-align: center;
 	font-size: 14px;
 	color: rgb(163,163,163);
@@ -1190,6 +1198,9 @@ span.icon-next {
 	color: #000;
 	text-decoration: none;
 	transition: none;
+	-webkit-transition: none;
+	-o-transition-property: none;
+	-moz-transition: none;
 }
 .help-block .help-list-item-link span {
 	border-bottom: 1px dashed #000;
@@ -1417,7 +1428,7 @@ span.icon-next {
 .collage .collage-title a {
 	color: #000;
 }
-.collage .collage-close {
+.modal-content .collage-close {
 	position: absolute;
 	width: 37px;
 	height: 37px;
@@ -1429,10 +1440,16 @@ span.icon-next {
 	border: 1px solid #fff;
 	border-radius: 50%;
 	transition: none;
+	-webkit-transition: none;
+	-o-transition-property: none;
+	-moz-transition: none;
 }
-.collage .collage-close:hover {
+.modal-content.modal-content .collage-close:hover {
 	background-position: -31px 9px;
 	border: 1px solid rgb(51,51,51);
+}
+.modal-content .collage-close-margin {
+	margin: 10px 5px 0 0;
 }
 .collage .action-add {
 	position: absolute;
@@ -1493,12 +1510,6 @@ span.icon-next {
 	z-index: 10;
 	padding: 20px 0;
 	width: 118px;
-}
-.collage .main-image {
-	position: absolute;
-	top: 30px;
-	left: 50%;
-	overflow: hidden;
 }
 .collage .model-item span {
 	position: absolute;
@@ -1587,18 +1598,10 @@ span.icon-next {
 	max-height: 165px;
 	cursor: move;
 }
-.collage .collage-rotate {
-	position: absolute;
-	bottom: 40px;
-	left: 400px;
-	width: 350px;
-	padding: 20px;
-	text-align: center;
-}
 .collage .collage-model {
 	position: absolute;
-	right: 30px;
-	bottom: 120px;
+	padding: 20px;
+	text-align: center;
 }
 .collage .collage-rotate img {
 	max-width: 350px;
@@ -1738,6 +1741,9 @@ span.icon-next {
 	text-indent: 100%;
 	overflow: hidden;
 	transition: none;
+	-webkit-transition: none;
+	-o-transition-property: none;
+	-moz-transition: none;
 }
 .collage .model-info-left {
 	left: -35px;
@@ -1961,6 +1967,9 @@ span.icon-next {
 	line-height: 24px;
 	padding: 8px 0 2px 10px;
 	transition: none;
+	-webkit-transition: none;
+	-o-transition-property: none;
+	-moz-transition: none;
 }
 .collage .collage-help-close:hover {
 	background-color: rgb(72,163,244);
@@ -2135,6 +2144,9 @@ span.icon-next {
 	height: 11px;
 	background: url(../images/modal-project-close.png) center top no-repeat;
 	transition: none;
+	-webkit-transition: none;
+	-o-transition-property: none;
+	-moz-transition: none;
 }
 .modal-project .modal-project-close:hover {
 	background: url(../images/modal-project-close.png) center -11px no-repeat;
