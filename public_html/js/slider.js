@@ -295,4 +295,38 @@ $(function(){
     	$(this).toggleClass("up");
     	event.preventDefault();
     });
+
+    $(".overview-choice-active").mouseover(function(){
+    	$this = $(this);
+    	var offset = $this.offset();
+    	var popup = $this.next();
+    	var container = $(".popup-container");
+    	if(container.length > 0) {
+    		container.detach();
+    	}
+    	$("body").append('<div class="popup-container"><div class="overview-choice-popup">' + popup.html() + "</div></div>");
+		var container = $(".popup-container");
+		var close = container.find(".overview-choice-popup-close");
+		var height = container.height() + 10;
+    	container.css("top", offset.top).css("left", offset.left - 10).css("margin-top", "-" + height + "px");
+    	container.show();
+    	var overview = $this.parents(".overview");
+    	container.mouseover(function(){
+    		overview.addClass("overview-block");
+    	});
+    	close.click(function(){
+    		overview.removeClass("overview-block");
+    		container.hide();
+    	});
+    });
+
+    $(".tarif-submit").click(function(event){
+    	var tr = $(this).parents("tr");
+    	tr.addClass("tarif-choice");
+    	var td = tr.find(".tarif-item-choice");
+    	var width = tr.width();
+    	console.log(width);
+    	td.css("width", width);
+    	event.preventDefault();
+    });
 });

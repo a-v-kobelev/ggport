@@ -75,7 +75,7 @@
 }
 .filter-container .filter-icon {
 	overflow: hidden;
-	padding: 16px 12px;
+	padding: 16px 12px 0 12px;
 }
 .filter-container .filter-icon a {
 	display: inline-block;
@@ -531,6 +531,7 @@
 	border-left: 1px solid rgb(237,237,237);
 	padding-bottom: 20px;
 	background-color: #fff;
+	overflow: hidden;
 }
 .catalog-items .search-result-block {
 	color: rgb(197,197,197);
@@ -657,6 +658,23 @@
 .catalog-block li:hover .overview  {
 	display: block;
 }
+.catalog-block li .overview.overview-block {
+	display: block;
+}
+.overview-choice-popup-close {
+	width: 9px;
+	height: 9px;
+	position: absolute;
+	right: 4px;
+	top: 4px;
+	background: url(../images/bg_search_result_icon.png);
+	text-indent: 100%;
+	overflow: hidden;
+	cursor: pointer;
+}
+.overview-choice-popup-close:hover {
+	content: url(../images/bg_search_result_icon_hover.png);
+}
 .catalog-block li .overview-opacity {
 	background: #fff;
 	position: absolute;
@@ -742,7 +760,7 @@ span.icon-next {
 	font-family: "Roboto Condensed Light";
 	font-size: 1em;
 	text-transform: uppercase;
-	line-height: 1.125em;
+	line-height: 1.500em;
 	text-decoration: none;
 	color: #000;
 }
@@ -752,14 +770,43 @@ span.icon-next {
 .overview .overview-choice {
 	position: absolute;
 	top: 10px;
-	left: 0;
+	left: 50%;
+	margin-left: -10px;
 	height: 19px;
-	width: 100%;
-	right: 0;
+	width: 20px;
 	background: url(../images/icon_models_circle.png) center top no-repeat;
 }
 .overview .overview-choice-active {
 	background: url(../images/icon_models_circle_orange.png) center top no-repeat;
+}
+.overview-choice-popup {
+	background: #fff;
+	padding: 6px;
+	border: 1px solid #ccc;
+	width: 200px;
+}
+.overview-choice-popup:after, .overview-choice-popup:before {
+	top: 100%;
+	left: 20px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.overview-choice-popup:after {
+	margin-top: -1px;
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #fff;
+	border-width: 5px;
+	margin-left: -5px;
+}
+.overview-choice-popup:before {
+	border-color: rgba(204, 204, 204, 0);
+	border-top-color: #ccc;
+	border-width: 6px;
+	margin-left: -6px;
 }
 .overview .overview-info {
 	position: absolute;
@@ -805,7 +852,7 @@ span.icon-next {
 }
 .overview .overview-add {
 	position: absolute;
-	top: 120px;
+	bottom: 50px;
 	left: 50%;
 	margin-left: -18px;
 	width: 37px;
